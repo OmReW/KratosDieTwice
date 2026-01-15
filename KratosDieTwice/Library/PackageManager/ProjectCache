@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/omerm/Documents/GitHub/KratosDieTwice/KratosDieTwice/Packages/manifest.json
+    m_FilePath: C:/Users/yusuf/OneDrive/Belgeler/GitHub/KratosDieTwice/KratosDieTwice/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639040633182276686
-    m_Hash: 3166824522
+      ticks: 639040637974764196
+    m_Hash: 2795837927
   m_LockFileStatus:
-    m_FilePath: C:/Users/omerm/Documents/GitHub/KratosDieTwice/KratosDieTwice/Packages/packages-lock.json
+    m_FilePath: C:/Users/yusuf/OneDrive/Belgeler/GitHub/KratosDieTwice/KratosDieTwice/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639040633238492270
-    m_Hash: 3865947325
+      ticks: 639040637974764196
+    m_Hash: 910732122
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/omerm/Documents/GitHub/KratosDieTwice/KratosDieTwice/Packages
+m_ProjectPath: C:/Users/yusuf/OneDrive/Belgeler/GitHub/KratosDieTwice/KratosDieTwice/Packages
 m_EditorVersion: 6000.3.3f1 (ef04196de0d6)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.10.2
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.10.2
   source: 1
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.collab-proxy@3351acaba9c9
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.collab-proxy@3351acaba9c9
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -221,7 +221,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -343,7 +343,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.17.0
   source: 1
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.inputsystem@02433b2481ab
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.inputsystem@02433b2481ab
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -526,7 +526,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -633,7 +633,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.10
   source: 1
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -834,7 +834,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.ugui@8873725e650d
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.ugui@8873725e650d
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -941,7 +941,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.9
   source: 1
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -4420,7 +4420,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.25
   source: 1
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -4547,7 +4547,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.38
   source: 1
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -4689,7 +4689,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 1
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.editorcoroutines@54394ed3283c
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.editorcoroutines@54394ed3283c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4788,7 +4788,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.4
   source: 1
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.performance.profile-analyzer@0516b3a47353
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.performance.profile-analyzer@0516b3a47353
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4895,7 +4895,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.6.0
   source: 2
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4996,7 +4996,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.7
   source: 1
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.testtools.codecoverage@e4e5058206c0
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.testtools.codecoverage@e4e5058206c0
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -5141,7 +5141,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.1
   source: 1
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -5240,7 +5240,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\omerm\Documents\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
+  resolvedPath: C:\Users\yusuf\OneDrive\Belgeler\GitHub\KratosDieTwice\KratosDieTwice\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
