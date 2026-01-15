@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|c:\\users\\yusuf\\onedrive\\belgeler\\github\\kratosdietwice\\kratosdietwice\\assets\\game\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\assets\\game\\scripts\\start screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\start screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "movement.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\movement.cs",
+              "RelativeDocumentMoniker": "Assets\\game\\scripts\\movement.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\movement.cs",
+              "RelativeToolTip": "Assets\\game\\scripts\\movement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T09:30:16.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Start Screen.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\Start Screen.cs",
+              "RelativeDocumentMoniker": "Assets\\game\\scripts\\Start Screen.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\Start Screen.cs",
+              "RelativeToolTip": "Assets\\game\\scripts\\Start Screen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T09:22:18.707Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

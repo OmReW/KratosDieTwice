@@ -6,7 +6,7 @@ public class StartScreen : MonoBehaviour
    
     public void StartOnClick() {
        
-        SceneManager.LoadScene("Omer-Chan UWUdes");
+        SceneManager.LoadScene(1);
 
     }
 
