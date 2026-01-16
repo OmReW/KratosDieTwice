@@ -430,10 +430,15 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/game/scripts/AudioEditor.cs"
 "Assets/game/scripts/movement.cs"
+"Assets/game/scripts/MovementAlternate.cs"
 "Assets/game/scripts/NewMonoBehaviourScript.cs"
 "Assets/game/scripts/plane movement 1.cs"
 "Assets/game/scripts/ScoreTExt.cs"
 "Assets/game/scripts/Start Screen.cs"
+"Assets/Low_Poly_Sci-fi_City/Scripts/CarTrafficLightGreen.cs"
+"Assets/Low_Poly_Sci-fi_City/Scripts/CarTrafficLightRed.cs"
+"Assets/Low_Poly_Sci-fi_City/Scripts/PeopleTrafficLightGreen.cs"
+"Assets/Low_Poly_Sci-fi_City/Scripts/PeopleTrafficLightRed.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -39,19 +39,19 @@ public class movement : MonoBehaviour {
             transform.position = Vector3.Lerp(transform.position, new Vector3(horizontalLocation, transform.position.y, transform.position.z), Time.deltaTime * 10);
             if (Keyboard.current.dKey.wasPressedThisFrame) {
                 horizontalLocation = horizontalLocation + leftRightDistance;
-                /*
-                if (transform.position.x > 0) {
-                    //    transform.Translate(Vector3.left * horizontalSpeed* Time.deltaTime);
-                    horizontalLocation = Vector3.zero;
-                }
-                else if (transform.position.x > -2f) {
-                  //  transform.Translate(Vector3.left * horizontalSpeed );
-                horizontalLocation = Vector3.left* -2f;
-
-                }
-                */
+            /*
+            if (transform.position.x > 0) {
+                //    transform.Translate(Vector3.left * horizontalSpeed* Time.deltaTime);
+                horizontalLocation = Vector3.zero;
+            }
+            else if (transform.position.x > -2f) {
+              //  transform.Translate(Vector3.left * horizontalSpeed );
+            horizontalLocation = Vector3.left* -2f;
 
             }
+            */
+            transform.Translate(Vector3.forward * forwardSpeed * Time.deltaTime);
+        }
 
             if (Keyboard.current.aKey.wasPressedThisFrame) {
                 horizontalLocation = horizontalLocation - leftRightDistance;
