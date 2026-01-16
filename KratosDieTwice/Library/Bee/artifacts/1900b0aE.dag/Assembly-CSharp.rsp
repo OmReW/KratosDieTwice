@@ -136,8 +136,10 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_FONT_ENGINE_1_6_OR_NEWER
+-define:DOTWEEN
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Managed/UnityEngine/UnityEditor.AssetComplianceModule.dll"
@@ -397,6 +399,7 @@
 -r:"Library/PackageCache/com.unity.ext.nunit@d8c07649098d/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@e4e5058206c0/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
@@ -430,14 +433,15 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/game/scripts/AudioEditor.cs"
 "Assets/game/scripts/kamera.cs"
-"Assets/game/scripts/movement.cs"
 "Assets/game/scripts/MovementAlternate.cs"
-"Assets/game/scripts/NewMonoBehaviourScript.cs"
 "Assets/game/scripts/parryScr (1).cs"
 "Assets/game/scripts/plane movement 1.cs"
+"Assets/game/scripts/Plane movement.cs"
 "Assets/game/scripts/Procuderal Generation.cs"
-"Assets/game/scripts/ScoreTExt.cs"
-"Assets/game/scripts/Start Screen.cs"
+"Assets/game/scripts/UI/RestartButton.cs"
+"Assets/game/scripts/UI/ScoreTExt.cs"
+"Assets/game/scripts/UI/Start Screen.cs"
+"Assets/game/scripts/useless/movement iptal.cs"
 "Assets/Low_Poly_Sci-fi_City/Scripts/CarTrafficLightGreen.cs"
 "Assets/Low_Poly_Sci-fi_City/Scripts/CarTrafficLightRed.cs"
 "Assets/Low_Poly_Sci-fi_City/Scripts/PeopleTrafficLightGreen.cs"

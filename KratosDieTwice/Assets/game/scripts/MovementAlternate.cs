@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.InputSystem; // <-- BU SATIRI EKLEMELİSİN
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement; 
 
 public class LaneMovement : MonoBehaviour
 {
@@ -18,17 +19,18 @@ public class LaneMovement : MonoBehaviour
 
     void Update()
     {
-        // Klavyeyi kontrol et
-        var keyboard = Keyboard.current;
-        if (keyboard == null) return; // Klavye yoksa hata vermesin
+        if(forwardSpeed == 0) {
+            SceneManager.LoadScene(2);
+        }
 
-        // YENİ INPUT SİSTEMİ KODLARI:
-        // Sol ok veya A tuşu
+
+        var keyboard = Keyboard.current;
+        if (keyboard == null) return; 
+
         if (keyboard.leftArrowKey.wasPressedThisFrame || keyboard.aKey.wasPressedThisFrame)
         {
             ChangeLane(-1);
         }
-        // Sağ ok veya D tuşu
         else if (keyboard.rightArrowKey.wasPressedThisFrame || keyboard.dKey.wasPressedThisFrame)
         {
             ChangeLane(1);

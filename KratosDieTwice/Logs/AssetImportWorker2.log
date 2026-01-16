@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.3f1 (ef04196de0d6) revision 15664153'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 32175 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-omerm" at "2026-01-16T08:53:33.4783703Z"
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 16068 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yusuf" at "2026-01-16T19:59:40.0282262Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-01-16T08:53:33Z
+Date: 2026-01-16T19:59:40Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Unity.exe
@@ -13,23 +13,23 @@ C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/omerm/Documents/GitHub/KratosDieTwice/KratosDieTwice
+C:/Users/yusuf/OneDrive/Belgeler/GitHub/KratosDieTwice/KratosDieTwice
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-9731
+55023
 -licensingIpc
-LicenseClient-omerm
+LicenseClient-yusuf
 -job-worker-count
-11
+9
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/omerm/Documents/GitHub/KratosDieTwice/KratosDieTwice
-C:/Users/omerm/Documents/GitHub/KratosDieTwice/KratosDieTwice
+Successfully changed project path to: C:/Users/yusuf/OneDrive/Belgeler/GitHub/KratosDieTwice/KratosDieTwice
+C:/Users/yusuf/OneDrive/Belgeler/GitHub/KratosDieTwice/KratosDieTwice
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -65,13 +65,13 @@ C:/Users/omerm/Documents/GitHub/KratosDieTwice/KratosDieTwice
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [21200]  Target information:
+Player connection [27928]  Target information:
 
-Player connection [21200]  * "[IP] 192.168.224.180 [Port] 0 [Flags] 2 [Guid] 2111038364 [EditorId] 2111038364 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [27928]  * "[IP] 172.16.9.216 [Port] 0 [Flags] 2 [Guid] 877547217 [EditorId] 877547217 [Version] 1048832 [Id] WindowsEditor(7,laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21200] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21200] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
+Player connection [27928] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27928] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -82,68 +82,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.3f1 (ef04196de0d6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/omerm/Documents/GitHub/KratosDieTwice/KratosDieTwice/Assets
+[Subsystems] Discovering subsystems at path C:/Users/yusuf/OneDrive/Belgeler/GitHub/KratosDieTwice/KratosDieTwice/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 5080 Laptop GPU (ID=0x2c19)
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
     Vendor:   NVIDIA
-    VRAM:     16003 MB
-    Driver:   32.0.15.9174
+    VRAM:     7956 MB
+    Driver:   32.0.15.9159
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001120 seconds.
-- Loaded All Assemblies, in  0.267 seconds
+Registered in 0.005739 seconds.
+- Loaded All Assemblies, in  1.112 seconds
 Native extension for WindowsStandalone target not found
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              9382976d38a148a388953cd4bc7d395a
-  Correlation Id:          6bf57e68add6488ce591e889227ca312
-  External correlation Id: 3743752219891247221
-  Machine Id:              pmNZprb+zyOzXlCt14cezMCcpOk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-omerm" (connect: 0.00s, validation: 0.00s, handshake: 1.12s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-omerm-notifications" at "2026-01-16T08:53:34.5965011Z"
-[Licensing::Module] Licensing Background thread has ended after 1.12s
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.254 seconds
-Domain Reload Profiling: 520ms
-	BeginReloadAssembly (93ms)
+- Finished resetting the current domain, in  0.967 seconds
+Domain Reload Profiling: 2070ms
+	BeginReloadAssembly (453ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (111ms)
-		LoadAssemblies (91ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (404ms)
+		LoadAssemblies (444ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (109ms)
-			TypeCache.Refresh (107ms)
-				TypeCache.ScanAssembly (96ms)
+		AnalyzeDomain (397ms)
+			TypeCache.Refresh (393ms)
+				TypeCache.ScanAssembly (366ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (254ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (968ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (232ms)
+		SetupLoadedEditorAssemblies (873ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (98ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			InitializePlatformSupportModulesInManaged (113ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -152,203 +143,1797 @@ Domain Reload Profiling: 520ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-yusuf"
+[Licensing::IpcConnector] LicenseClient-yusuf channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yusuf-6000.3.3" at "2026-01-16T19:59:44.667578Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              7e16d3af80034012b791eb240ee26027
+  Correlation Id:          ba20e8db356b5668102a7e2c5d0a83b3
+  External correlation Id: 8738362706855393829
+  Machine Id:              v4H7pVeb0v7DK4vAa+UYlxm0F0Y=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-yusuf-6000.3.3" (connect: 0.00s, validation: 0.00s, handshake: 3.59s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yusuf-6000.3.3-notifications" at "2026-01-16T19:59:48.2662739Z"
+[Licensing::Module] Licensing Background thread has ended after 8.24s
+[Licensing::Module] Licensing is initialized (took 4.43s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 18966909802493-UnityPersXXXX
+  Id: 18968345228979-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.445 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+- Loaded All Assemblies, in  5.795 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.450 seconds
-Domain Reload Profiling: 894ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  1.379 seconds
+Domain Reload Profiling: 7165ms
+	BeginReloadAssembly (4820ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (265ms)
-		LoadAssemblies (212ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (799ms)
+		LoadAssemblies (697ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (119ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (84ms)
-			BuildScriptInfoCaches (19ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (451ms)
+		AnalyzeDomain (331ms)
+			TypeCache.Refresh (265ms)
+				TypeCache.ScanAssembly (244ms)
+			BuildScriptInfoCaches (48ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1379ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (381ms)
+		SetupLoadedEditorAssemblies (1155ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (278ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (275ms)
+			ProcessInitializeOnLoadAttributes (790ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3868 unused Assets / (1.0 MB). Loaded Objects now: 4466.
-Memory consumption went from 98.5 MB to 97.4 MB.
-Total: 5.022900 ms (FindLiveObjects: 0.335100 ms CreateObjectMapping: 0.314900 ms MarkObjects: 3.616700 ms  DeleteObjects: 0.755300 ms)
+Unloading 3871 unused Assets / (0.7 MB). Loaded Objects now: 4470.
+Memory consumption went from 98.8 MB to 98.1 MB.
+Total: 15.210200 ms (FindLiveObjects: 1.564700 ms CreateObjectMapping: 0.390800 ms MarkObjects: 11.428100 ms  DeleteObjects: 1.824700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41597.719702 seconds.
-  path: Assets/game/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/game/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0583a30680062650e7d4a7497796509b') in 0.0039209 seconds
+  Time since last request: 89084.196421 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Materials/StreetLightsGreen_GrayYellow.mat
+  artifactKey: Guid(d054375783a29b747b124261b7353744) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Materials/StreetLightsGreen_GrayYellow.mat using Guid(d054375783a29b747b124261b7353744) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0f3001d9bf1baf19c4b91a6c91a26c6') in 0.2650346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesGrayYellow
+  artifactKey: Guid(1af40a11f7dccb44fbdfcd282e03a50b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesGrayYellow using Guid(1af40a11f7dccb44fbdfcd282e03a50b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09eea2567e0e4ea2cde10ba72bf75902') in 0.0417162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/2Lines/Bridge((2)).fbx
+  artifactKey: Guid(19943f221b35b0e4ab681c7dfcdec91c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/2Lines/Bridge((2)).fbx using Guid(19943f221b35b0e4ab681c7dfcdec91c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10f60c02f6f74918ef841f4fabc3b77b') in 0.1478765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X3BlueRed/X3((1(4))+(2(2))).prefab
+  artifactKey: Guid(0e631998eedb2ee4c8cd4cc750cead89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X3BlueRed/X3((1(4))+(2(2))).prefab using Guid(0e631998eedb2ee4c8cd4cc750cead89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09382d19c6b896c7580c2edf5e73e519') in 0.0798383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 121
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic02BluePink.prefab
+  artifactKey: Guid(e9da3a8f9b635f64fb9f29212eaed091) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic02BluePink.prefab using Guid(e9da3a8f9b635f64fb9f29212eaed091) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e06eee799ab5c2312d87fc5f613d4581') in 0.0668142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/EmpireStandBlack.prefab
+  artifactKey: Guid(7d28bb73b2243ff4db8f58c89d3d31a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/EmpireStandBlack.prefab using Guid(7d28bb73b2243ff4db8f58c89d3d31a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0fdc108cb9227a42a4dbd58c0e1271e9') in 0.0420462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Readme.txt
+  artifactKey: Guid(4e04f8dc0dc12314c8f469b50ea267b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Readme.txt using Guid(4e04f8dc0dc12314c8f469b50ea267b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82049afe0b8a0eb9a8f6d9ccc3f42e33') in 0.0586395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/MitikoStandWhite.prefab
+  artifactKey: Guid(9a4979c4d5f5a3548b0620361bbb5fd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/MitikoStandWhite.prefab using Guid(9a4979c4d5f5a3548b0620361bbb5fd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e51162c6f81f1b7da5162b9c4ee71e50') in 0.0817671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/DoorGray.prefab
+  artifactKey: Guid(fda36535d4f874041823829bcc738539) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/DoorGray.prefab using Guid(fda36535d4f874041823829bcc738539) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63a84beba2062fe43b6456ca3b46a7d2') in 0.0443185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Honeycombing_s.tga
+  artifactKey: Guid(bfdabb4ab22f42042b01233bf97ae564) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Honeycombing_s.tga using Guid(bfdabb4ab22f42042b01233bf97ae564) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33afbf34c17ee1e16334f41ce887e296') in 0.1188367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/game/Scenes/End Screen.unity
+  artifactKey: Guid(8a27d7b1cfe11da4987400e4009213c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/game/Scenes/End Screen.unity using Guid(8a27d7b1cfe11da4987400e4009213c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abef5d954ad96780302eaba10fc423e9') in 0.0008952 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.148742 seconds.
-  path: Assets/game/scripts/AudioEditor.cs
-  artifactKey: Guid(ec9dc46ddd8b9b240b8679b1b04f497c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/game/scripts/AudioEditor.cs using Guid(ec9dc46ddd8b9b240b8679b1b04f497c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc37f68eb2923424836c1fa9c6a5350b') in 0.0006262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000232 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(289c1b55c9541489481df5cc06664110) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(289c1b55c9541489481df5cc06664110) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43d44e860b3e2ed69f1e639a611eb8cb') in 0.2858961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.431 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.464 seconds
-Domain Reload Profiling: 894ms
-	BeginReloadAssembly (154ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (222ms)
-		LoadAssemblies (207ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (86ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (71ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (464ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (385ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (277ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3866 unused Assets / (0.9 MB). Loaded Objects now: 4470.
-Memory consumption went from 99.2 MB to 98.3 MB.
-Total: 5.616100 ms (FindLiveObjects: 0.558600 ms CreateObjectMapping: 0.299600 ms MarkObjects: 3.812100 ms  DeleteObjects: 0.945000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.430 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.532 seconds
-Domain Reload Profiling: 961ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (229ms)
-		LoadAssemblies (209ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (91ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (76ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (533ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (451ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (322ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3866 unused Assets / (0.9 MB). Loaded Objects now: 4471.
-Memory consumption went from 99.2 MB to 98.3 MB.
-Total: 6.292800 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.286900 ms MarkObjects: 4.749000 ms  DeleteObjects: 0.888800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 177.405853 seconds.
-  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/SysPinkYellowBuilding_2.prefab
-  artifactKey: Guid(8bb0830b75771e64daaa1911edc9cf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/SysPinkYellowBuilding_2.prefab using Guid(8bb0830b75771e64daaa1911edc9cf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cb6b7fa5fb895d53c4602318386ca1a') in 0.208305 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 87
+  Time since last request: 7.245031 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesGrayYellow/P_Sidewalk(20x20).prefab
+  artifactKey: Guid(9c5f5ce0ad2f6694f9f33a8ffbbf32b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesGrayYellow/P_Sidewalk(20x20).prefab using Guid(9c5f5ce0ad2f6694f9f33a8ffbbf32b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22b29d3bff4f422f12747bcfd3e1fdda') in 0.0577876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/CapsuleGrayBuilding_2.prefab
+  artifactKey: Guid(ba63905bf237be84da03d8cbd6969c7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/CapsuleGrayBuilding_2.prefab using Guid(ba63905bf237be84da03d8cbd6969c7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e8e5d9fa8fdf89c64fc31cbed9f8190') in 0.0644129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesBlueRed/1(8)0.5.prefab
+  artifactKey: Guid(4adf1209b5c80db46bcb176576a6d73a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesBlueRed/1(8)0.5.prefab using Guid(4adf1209b5c80db46bcb176576a6d73a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5190a200721dfe21f2fcf7faf762fef') in 0.0613977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TransitionsGrayYellow/BridgeFence(4_8).prefab
+  artifactKey: Guid(ef8a6285e88f0e44e91cc1845618ed19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TransitionsGrayYellow/BridgeFence(4_8).prefab using Guid(ef8a6285e88f0e44e91cc1845618ed19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1bde985e2322c2a0f42f743bfb55a3c') in 0.0608472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials
+  artifactKey: Guid(65592b7451c24c1459016a456f784b39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials using Guid(65592b7451c24c1459016a456f784b39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50050ed6835befe0efc18fa02ef6af86') in 0.0304757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/8Lines/Parking((8(1))).fbx
+  artifactKey: Guid(29ff971033c256246b7632573595822b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/8Lines/Parking((8(1))).fbx using Guid(29ff971033c256246b7632573595822b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '352a6842af012da7e8f198cb9490e355') in 0.0413756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/SpaceBuildBlueBuilding.prefab
+  artifactKey: Guid(4c86ab1873dd4e14a980aa678e9e63d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/SpaceBuildBlueBuilding.prefab using Guid(4c86ab1873dd4e14a980aa678e9e63d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '466310aafc80e0cb184329c519d5f5b4') in 0.0682849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 550
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesBlueRed/P_BridgeFrame((4_column)).prefab
+  artifactKey: Guid(7c7f9285a5af7984db53aa39172cfc9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesBlueRed/P_BridgeFrame((4_column)).prefab using Guid(7c7f9285a5af7984db53aa39172cfc9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e39da2711bd71e3109d889b208aa900e') in 0.0606831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/xScreenEat.fbx
+  artifactKey: Guid(7bb9b85c2cc111b42bbc581cec3efb51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/xScreenEat.fbx using Guid(7bb9b85c2cc111b42bbc581cec3efb51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e4f245ad148d2e6d283adb9953d5fc7') in 0.036221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/YughuesFreeConcreteMaterials_HDRP.unitypackage
+  artifactKey: Guid(22150baa83b7e924fb765e46bc24d313) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/YughuesFreeConcreteMaterials_HDRP.unitypackage using Guid(22150baa83b7e924fb765e46bc24d313) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1a84063fcc28762c8fe358edae8be6d') in 0.028414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/TransitionsGrayYellow 1
+  artifactKey: Guid(0c71dba429e66214897c21b3628b3fcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/TransitionsGrayYellow 1 using Guid(0c71dba429e66214897c21b3628b3fcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '314934234e22879a98a1a5022e5ce530') in 0.0271415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/FridgeBrownBuilding_4.prefab
+  artifactKey: Guid(e3fa04cc4c9248140a2b91b78df77235) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/FridgeBrownBuilding_4.prefab using Guid(e3fa04cc4c9248140a2b91b78df77235) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '131297cdc0def578ef6809d8f93cf437') in 0.0561781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 193
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/BridgeSupportGrayYellow/SupportBridge(10x14).prefab
+  artifactKey: Guid(5e11791a107db184e82a1a60cb3513ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/BridgeSupportGrayYellow/SupportBridge(10x14).prefab using Guid(5e11791a107db184e82a1a60cb3513ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c45ad7bb1494b0fc653bc86c26881de') in 0.0538618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TrafficLightsBlueRed/StreetLight.prefab
+  artifactKey: Guid(b4e86a19484047e419c960e85c7d7fc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TrafficLightsBlueRed/StreetLight.prefab using Guid(b4e86a19484047e419c960e85c7d7fc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '697ceac31d0b37e92bfa5a77a8f6adb5') in 0.0381681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/OctagonGrayBuilding.prefab
+  artifactKey: Guid(f3e448bbc7d0417459fe0a7408275669) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/OctagonGrayBuilding.prefab using Guid(f3e448bbc7d0417459fe0a7408275669) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f36cc6b01cdf59b22aed33c10411958') in 0.0625636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 315
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd396dd1e6a2909961908ba88c34c122d') in 0.0392438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/SysBlackOrangeBuilding_4.prefab
+  artifactKey: Guid(b14dbd5e236618e4cb786ceca70806fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/SysBlackOrangeBuilding_4.prefab using Guid(b14dbd5e236618e4cb786ceca70806fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e1852078707e8fe541e513c0d8fb893') in 0.0602234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesGrayYellow/1(4)0.5.prefab
+  artifactKey: Guid(c17ddf54fdd98a9469c8d3a4db450ce4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesGrayYellow/1(4)0.5.prefab using Guid(c17ddf54fdd98a9469c8d3a4db450ce4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b38fd98007ad903f24022a5e36c5a2c1') in 0.0630222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TrafficLightsOrangeGray/BigStreetTraficLightRed(4).prefab
+  artifactKey: Guid(d12e348ddbb7f494a8767c60c91d90b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TrafficLightsOrangeGray/BigStreetTraficLightRed(4).prefab using Guid(d12e348ddbb7f494a8767c60c91d90b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46d7c3ad2033673ddc4df70e74b91735') in 0.0648502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '749475439275937e6ec45bda3da03f8a') in 0.0339426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/OctagonStandBlack.prefab
+  artifactKey: Guid(6e74d486ff267b748a022e36b99ef1ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/OctagonStandBlack.prefab using Guid(6e74d486ff267b748a022e36b99ef1ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10a854234375d3a5f465a286543deaca') in 0.0336653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/H1Yellow.prefab
+  artifactKey: Guid(355d951a63d9e6b47bd8afa6cad82c33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/H1Yellow.prefab using Guid(355d951a63d9e6b47bd8afa6cad82c33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5d3371485840deb38411268b7da622b') in 0.0592676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesGrayYellow/4(4).prefab
+  artifactKey: Guid(8da1b310505e93a4990796f3229dee57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesGrayYellow/4(4).prefab using Guid(8da1b310505e93a4990796f3229dee57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '054531234ee673dfdd42a6aecbacf192') in 0.0656395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X4OrangeGray/X4((3(4))+(1(2))).prefab
+  artifactKey: Guid(dc2fe63d658a4c344a9a4fc1d344c066) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X4OrangeGray/X4((3(4))+(1(2))).prefab using Guid(dc2fe63d658a4c344a9a4fc1d344c066) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e8243943e7ef09bf4acdb0d74dad598') in 0.0666447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/8Lines/BridgeCross(4(8)).fbx
+  artifactKey: Guid(d10498c2dacf098409170df0d102367f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/8Lines/BridgeCross(4(8)).fbx using Guid(d10498c2dacf098409170df0d102367f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5de3859eeadfaf6a88a918a445a54dfe') in 0.0408696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/8Lines/BridgeCross(3(8)).fbx
+  artifactKey: Guid(1116d2560e76cea4bb5bdbdf05350406) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/8Lines/BridgeCross(3(8)).fbx using Guid(1116d2560e76cea4bb5bdbdf05350406) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc8c1827e8634ac885e93877eb128e22') in 0.0400438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesOrangeGray/BigParking((2)).prefab
+  artifactKey: Guid(b3ec201b6a0c79044950a7e4137bd36f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesOrangeGray/BigParking((2)).prefab using Guid(b3ec201b6a0c79044950a7e4137bd36f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a8c1601b34c77653fb2c54d2752f3f3') in 0.0643126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 138
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/ArsStandGray.prefab
+  artifactKey: Guid(84f91dec5376122429ae627e7b6f809e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/ArsStandGray.prefab using Guid(84f91dec5376122429ae627e7b6f809e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe02b342030c065677e284edafc7fd60') in 0.0575724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/ArsGold.prefab
+  artifactKey: Guid(49151e4795183f647a269fca4963bc73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/ArsGold.prefab using Guid(49151e4795183f647a269fca4963bc73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7139f2761d046289dd07692e944e0588') in 0.065532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/2Lines/Bridge((2))0.5.fbx
+  artifactKey: Guid(e19b2a08c85393148815a1c12d881a8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/2Lines/Bridge((2))0.5.fbx using Guid(e19b2a08c85393148815a1c12d881a8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f825779c2955ae90fee8c4e2134b2c74') in 0.0423458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD4_s.tga
+  artifactKey: Guid(6e5d46c40c74ad8448bde8085d7c974f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD4_s.tga using Guid(6e5d46c40c74ad8448bde8085d7c974f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f381d78563ce50ec0813cbde813b26ef') in 0.0352747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesGrayYellow/P4(4Road).prefab
+  artifactKey: Guid(9ee66cce54d298442a28b1b46e6bf2f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesGrayYellow/P4(4Road).prefab using Guid(9ee66cce54d298442a28b1b46e6bf2f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54e9ec02fdcff02fb683ae7bd6fa99d2') in 0.0590186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic04BlackGreen.prefab
+  artifactKey: Guid(dc35c2fd6cfc22546b3b45f6d6d52191) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic04BlackGreen.prefab using Guid(dc35c2fd6cfc22546b3b45f6d6d52191) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fea3e14a03a9175274939fc907b234f8') in 0.0570798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/SysPurpleGrayBuilding_3.prefab
-  artifactKey: Guid(9ad240f7345414547b9f230f9f4b83c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/SysPurpleGrayBuilding_3.prefab using Guid(9ad240f7345414547b9f230f9f4b83c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b4a3b8518143e8d4a8dae1eb9a284bd') in 0.0923793 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 93
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/4Lines/4(4).fbx
+  artifactKey: Guid(76bfd9c3b6d6ab74ab154dfe1c6077ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/4Lines/4(4).fbx using Guid(76bfd9c3b6d6ab74ab154dfe1c6077ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95c6c9da45e5643b7a0cde797a5c8830') in 0.0382297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/TransitionsGrayYellow 1/BridgeFence(4_8).prefab
+  artifactKey: Guid(f43511e59e933574384d3539bfd86601) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/TransitionsGrayYellow 1/BridgeFence(4_8).prefab using Guid(f43511e59e933574384d3539bfd86601) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '305e1f86092d75f9dfb5b57c1f50a805') in 0.0585183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/TrafficLights/TraficLightPeople.fbx
+  artifactKey: Guid(e7f978e41479e164e93c1bf8dfc0ab9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/TrafficLights/TraficLightPeople.fbx using Guid(e7f978e41479e164e93c1bf8dfc0ab9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce99f7ff916b89ae660feec163338fd4') in 0.0377059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesGrayYellow/P1(4Road).prefab
+  artifactKey: Guid(e4813697fba5c414da5716a4bffd341e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesGrayYellow/P1(4Road).prefab using Guid(e4813697fba5c414da5716a4bffd341e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf861f3879e992e08b16db5da88c0af0') in 0.0583614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_CrossSlabs.mat
+  artifactKey: Guid(319eceb680f53f94a9f35becbdbd70bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_CrossSlabs.mat using Guid(319eceb680f53f94a9f35becbdbd70bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8c8b31c9914dc273dbdf52c2a826237') in 0.0655701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesBlueRed/P_BridgeFrame((2)).prefab
+  artifactKey: Guid(6974da6e10a127d46b7e1db6617f1cf3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesBlueRed/P_BridgeFrame((2)).prefab using Guid(6974da6e10a127d46b7e1db6617f1cf3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a6fd251d7cb3a5a191eaadb842c9324') in 0.0573348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesBlueRed/BridgeFence(Turn(4)).prefab
+  artifactKey: Guid(3d31f0c022b05934bacd7923bfa9d204) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesBlueRed/BridgeFence(Turn(4)).prefab using Guid(3d31f0c022b05934bacd7923bfa9d204) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e059bfc331ac7bedc8ca4f372db65cf') in 0.0573009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/FridgeBlueBuilding_2.prefab
+  artifactKey: Guid(c604548c3a2d3c2489ade7b3562f9012) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/FridgeBlueBuilding_2.prefab using Guid(c604548c3a2d3c2489ade7b3562f9012) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51946ede1fa0a48c94ea0adaeafa9fef') in 0.0557481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesGrayYellow/Bridge((2)).prefab
+  artifactKey: Guid(583d81f269a731045a5d2f38c7c7b3e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesGrayYellow/Bridge((2)).prefab using Guid(583d81f269a731045a5d2f38c7c7b3e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83f634c3586bb97ab0623fd26d50783a') in 0.0640445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/ArsGoldBuilding.prefab
+  artifactKey: Guid(ec2a5c21f2e264b459ff0792f4ea5953) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/ArsGoldBuilding.prefab using Guid(ec2a5c21f2e264b459ff0792f4ea5953) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38d980be5094e68a35cdceade41debb8') in 0.0739763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 151
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/xScreenH1.prefab
+  artifactKey: Guid(57a5151aed95bf244aa5b6ced1c4a554) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/xScreenH1.prefab using Guid(57a5151aed95bf244aa5b6ced1c4a554) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f1a3a2e794785e9baf11fe84dc0ed61') in 0.0637902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TransitionsOrangeGray/BridgeFence(2_4).prefab
+  artifactKey: Guid(7cf9e914c852192498909cc025a75422) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TransitionsOrangeGray/BridgeFence(2_4).prefab using Guid(7cf9e914c852192498909cc025a75422) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db215a05d33781d1ef4b60c1e7eb53e4') in 0.0574808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesOrangeGray/BridgeFence(Turn(4)).prefab
+  artifactKey: Guid(fcd88a05eced7a249b9c507f5af421d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesOrangeGray/BridgeFence(Turn(4)).prefab using Guid(fcd88a05eced7a249b9c507f5af421d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76b0d31222f76e3e60e6c85a235c512a') in 0.0632953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesOrangeGray/P1(2Road).prefab
+  artifactKey: Guid(1f197f218408a3f4695dd27c31a0f621) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesOrangeGray/P1(2Road).prefab using Guid(1f197f218408a3f4695dd27c31a0f621) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b1c677bd8f722670e1113aee7074662') in 0.0379735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD16_d.tga
+  artifactKey: Guid(b760bef714c638c4c90d19cba109d0be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD16_d.tga using Guid(b760bef714c638c4c90d19cba109d0be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd523846b90a93647d131db6886054272') in 0.0591958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X4OrangeGray/X4((2(8))+(1(4))+(1(2))).prefab
+  artifactKey: Guid(3538ba0278dd975469714ed6988c6038) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X4OrangeGray/X4((2(8))+(1(4))+(1(2))).prefab using Guid(3538ba0278dd975469714ed6988c6038) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc5a1591f7089395ebc4fb1643f996bd') in 0.0693948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesGrayYellow/Bridge((2)).prefab
+  artifactKey: Guid(047bc76c8625fcd448a43e34fb7f58c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesGrayYellow/Bridge((2)).prefab using Guid(047bc76c8625fcd448a43e34fb7f58c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '121742f840b0e75484d36c1d518d1a0d') in 0.055973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000048 seconds.
-  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/SysPurpleGrayBuilding_1.prefab
-  artifactKey: Guid(d430db797542658479e54af33db70dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/SysPurpleGrayBuilding_1.prefab using Guid(d430db797542658479e54af33db70dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb01ee3927209f62ccf0364457d998d4') in 0.0842543 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+  path: Assets/Low_Poly_Sci-fi_City/Scene
+  artifactKey: Guid(f174e63ce13bdbf468e66a43d8bcdd4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Scene using Guid(f174e63ce13bdbf468e66a43d8bcdd4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e8d6083ddaf07d20247b873f2d385c7') in 0.0341961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/4Lines/Turn(4).fbx
+  artifactKey: Guid(935d694eb3dd24948902c55e035fae7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/4Lines/Turn(4).fbx using Guid(935d694eb3dd24948902c55e035fae7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc7f63410be34c8daff3fa50e0b8167e') in 0.0489322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic05LightGrayYellow.prefab
+  artifactKey: Guid(53398f4a252c1914687e9c0ab8720d65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic05LightGrayYellow.prefab using Guid(53398f4a252c1914687e9c0ab8720d65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88bc970866e4392b44be58323597de06') in 0.0422292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Stamped01.mat
+  artifactKey: Guid(b40547493aafb944480a5af970b1008d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Stamped01.mat using Guid(b40547493aafb944480a5af970b1008d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f0148f27628267826cdc58b9c31bdba') in 0.0985974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesBlueRed/4(8).prefab
+  artifactKey: Guid(13eeaa3074c71e84e965c6d4ace3b630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesBlueRed/4(8).prefab using Guid(13eeaa3074c71e84e965c6d4ace3b630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dce19fda8ac5687ba95ec2ad6ff9b6ea') in 0.0725445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/8Lines/2(8).fbx
+  artifactKey: Guid(224ad00addb534f44ad4f46ae6e35f77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/8Lines/2(8).fbx using Guid(224ad00addb534f44ad4f46ae6e35f77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a00e89e32db8f2e02b21a0275a0acb27') in 0.0435777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/8LinesOrangeGray/Parking((8(1))).prefab
+  artifactKey: Guid(483c003f913241e42ac6b492678753ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/8LinesOrangeGray/Parking((8(1))).prefab using Guid(483c003f913241e42ac6b492678753ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'caee9746e8f910a6b7a4b028916051fc') in 0.073598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/HelicBlueOrange.prefab
+  artifactKey: Guid(7a97a037f8e45e946834b766f16d76ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/HelicBlueOrange.prefab using Guid(7a97a037f8e45e946834b766f16d76ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e50a2bdfc3be2d95085455cedf8894b') in 0.0693484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesGrayYellow/P_BridgeFrame((8)).prefab
+  artifactKey: Guid(bff0233f914edc64fbbe44645a470ad5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesGrayYellow/P_BridgeFrame((8)).prefab using Guid(bff0233f914edc64fbbe44645a470ad5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a75171e33930a424f41d7194053e2a02') in 0.0699762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P_Sidewalk(40x40).fbx
+  artifactKey: Guid(433b3132fed7f4c418640726d9881650) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P_Sidewalk(40x40).fbx using Guid(433b3132fed7f4c418640726d9881650) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b90aacf76068183f47d2d11e2b88f3ff') in 0.0546834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/X4BlueRed/X4((3(4))+(1(2))).prefab
+  artifactKey: Guid(c1496c5581a0e86459c3ac645cb31aff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/X4BlueRed/X4((3(4))+(1(2))).prefab using Guid(c1496c5581a0e86459c3ac645cb31aff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c25bb22bbb80eb740f9311f7e7461e71') in 0.0645063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic03LightGrayAqua.prefab
+  artifactKey: Guid(22451871aa848a64590b501193ba3b12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic03LightGrayAqua.prefab using Guid(22451871aa848a64590b501193ba3b12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '271880a3c578f3d2fda95d83266c7d0d') in 0.0424783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X3GrayYellow/X3((1(8))+(2(2))).prefab
+  artifactKey: Guid(3bc21a361b624ac48841fc27b20ee1ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X3GrayYellow/X3((1(8))+(2(2))).prefab using Guid(3bc21a361b624ac48841fc27b20ee1ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '683ee2542a1226ea9de611e88c36cd21') in 0.073233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesOrangeGray/P_Sidewalk(10x10).prefab
+  artifactKey: Guid(2120c6cfd2445e54ead884e00ac62f4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesOrangeGray/P_Sidewalk(10x10).prefab using Guid(2120c6cfd2445e54ead884e00ac62f4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a443aa6106c2dbaed397627422678b1') in 0.0685457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/X4BlueRed/X4((2(8))+(2(4))).prefab
+  artifactKey: Guid(58395268f803aa14c8e76a7e88ad1a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/X4BlueRed/X4((2(8))+(2(4))).prefab using Guid(58395268f803aa14c8e76a7e88ad1a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '765d2def4593ddb7eab5eec903bd8f3f') in 0.0660669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesOrangeGray/BridgeFence((Сlimb((4))).prefab
+  artifactKey: Guid(d20b358741bbfb342ad62a8b0bd77e1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesOrangeGray/BridgeFence((Сlimb((4))).prefab using Guid(d20b358741bbfb342ad62a8b0bd77e1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5eddfcb661937ccd0942535e4bc985a') in 0.0725231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/StudioYellowBuilding_2.prefab
+  artifactKey: Guid(6724667c1dfc1054a9a87c2586c7b441) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/StudioYellowBuilding_2.prefab using Guid(6724667c1dfc1054a9a87c2586c7b441) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e98b90cb1c1129f2bd614ac79b86cbde') in 0.0816573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 449
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000789 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X3BlueRed/X3((2(8))+(1(2))).prefab
+  artifactKey: Guid(e430f060a8fe3b442b1f71868a40b4a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X3BlueRed/X3((2(8))+(1(2))).prefab using Guid(e430f060a8fe3b442b1f71868a40b4a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23e40eb1b8e7799711e67de4887c5aa5') in 0.0812376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/game/scripts/plane movement 1.cs
+  artifactKey: Guid(3d5a676bff9666e489e062bea75637bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/game/scripts/plane movement 1.cs using Guid(3d5a676bff9666e489e062bea75637bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5c60b960f6a316ea7d85bfcd51e1b23') in 0.0373769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered_d.tga
+  artifactKey: Guid(9fe329039800807419f8524939fdf3ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered_d.tga using Guid(9fe329039800807419f8524939fdf3ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50f5d56afe12243733370b37cc7bf947') in 0.0415469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesGrayYellow/Parking((2(2))).prefab
+  artifactKey: Guid(f7aea164ba524cd4ca2a02bd6eb2ccad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesGrayYellow/Parking((2(2))).prefab using Guid(f7aea164ba524cd4ca2a02bd6eb2ccad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99c7b236a4acfcbb975ae206e6fa61fe') in 0.0686975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/BridgeSupportOrangeGray/RoadSupport(13x18).prefab
+  artifactKey: Guid(ce58fa7d522f20b4b84709246aeea18a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/BridgeSupportOrangeGray/RoadSupport(13x18).prefab using Guid(ce58fa7d522f20b4b84709246aeea18a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc83826ddbf63a2b2a6c10b3ec3479a2') in 0.0637653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/TransitionsBlueRed/2_4.prefab
+  artifactKey: Guid(47bf3e60fb97fbb4590d80eba02238bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/TransitionsBlueRed/2_4.prefab using Guid(47bf3e60fb97fbb4590d80eba02238bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '914dad8d4885a7d94ec555fca46ea518') in 0.0637929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/8Lines/BridgeFence((8))0.5.fbx
+  artifactKey: Guid(2a5dd16e0d6616447bddd50340366370) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/8Lines/BridgeFence((8))0.5.fbx using Guid(2a5dd16e0d6616447bddd50340366370) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac1d7698901defc6d0eacc660d1903c4') in 0.039536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/xScreenSpaceBuild.fbx
+  artifactKey: Guid(7266289b98c475f43a59bbd82ecf55b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/xScreenSpaceBuild.fbx using Guid(7266289b98c475f43a59bbd82ecf55b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1229b225da294f3f7a01d2377a13c52b') in 0.0360268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesOrangeGray/P2(2Road).prefab
+  artifactKey: Guid(181ea4dc8bce2f34081723e26b65e4b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesOrangeGray/P2(2Road).prefab using Guid(181ea4dc8bce2f34081723e26b65e4b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'caae02f2f18b3002756736fb67954bcd') in 0.0431087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/xScreenCandle.fbx
+  artifactKey: Guid(62c661cd0f5c98d4d8ec490b2baf185b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/xScreenCandle.fbx using Guid(62c661cd0f5c98d4d8ec490b2baf185b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6353e7f024f177c9d5c036bb6e76d89') in 0.0396063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesBlueRed/Parking((4(2))).prefab
+  artifactKey: Guid(c32ab471cca0fca4abda8fdb1480547b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesBlueRed/Parking((4(2))).prefab using Guid(c32ab471cca0fca4abda8fdb1480547b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bca0b9dbad3be0738d8a4845e470d5e4') in 0.0642568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 87
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/PalmGrayYellow.prefab
+  artifactKey: Guid(dc9da8a5671cc814584aca11a4ef5f8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/PalmGrayYellow.prefab using Guid(dc9da8a5671cc814584aca11a4ef5f8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77d32570fcabae5b951c8d73aa5896e9') in 0.0419702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/PalmGrayYellowBuilding_2.prefab
+  artifactKey: Guid(37c4bbb05ba032d45bfc26d5d7168b74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/PalmGrayYellowBuilding_2.prefab using Guid(37c4bbb05ba032d45bfc26d5d7168b74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '947c4989aae2f2eb69044245f85fbf0b') in 0.073501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesBlueRed/1(4).prefab
+  artifactKey: Guid(49a64a28877e2fc4f8586566b5fcb91f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesBlueRed/1(4).prefab using Guid(49a64a28877e2fc4f8586566b5fcb91f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3686824a4d1aca24850e16b5d57e003') in 0.0727888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Moldy_s.tga
+  artifactKey: Guid(78bffb9ab6ba88b4f913e326224e3449) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Moldy_s.tga using Guid(78bffb9ab6ba88b4f913e326224e3449) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08c1e0c09720f077bc1d8de1803d33f9') in 0.0453351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD16_n.tga
+  artifactKey: Guid(528ca4670dfc21345afbda263f979603) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD16_n.tga using Guid(528ca4670dfc21345afbda263f979603) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17d7d66715efbdd75f4e5b49f1486246') in 0.0721097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesGrayYellow
+  artifactKey: Guid(6cecc44f0afa45c4c8620eaa56937b53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesGrayYellow using Guid(6cecc44f0afa45c4c8620eaa56937b53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1eddb983274a5bfb137820e81b183c21') in 0.0376804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/4Lines/1(4).fbx
+  artifactKey: Guid(6a43cb144eb13ca479c5ed1a1a80b0fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/4Lines/1(4).fbx using Guid(6a43cb144eb13ca479c5ed1a1a80b0fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee97e91e0c0944847da04582745c1205') in 0.041325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/8LinesBlueRed/BridgeCross(4(8)).prefab
+  artifactKey: Guid(6341f4c0107f1af45b58124352724a7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/8LinesBlueRed/BridgeCross(4(8)).prefab using Guid(6341f4c0107f1af45b58124352724a7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b3288258c64b83102024ada1124f6ed4') in 0.0681008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/8LinesOrangeGray/2(8).prefab
+  artifactKey: Guid(5fce36c4d594e82439de46084d9d4f77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/8LinesOrangeGray/2(8).prefab using Guid(5fce36c4d594e82439de46084d9d4f77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6b86d04387c3d8ac49e8ec571d95925') in 0.0805019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 140
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/EmpireStandRed.prefab
+  artifactKey: Guid(9ca38fb28aba8614f8552c8eca299da3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/EmpireStandRed.prefab using Guid(9ca38fb28aba8614f8552c8eca299da3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31ce1c4975959ca9c483f9823c9becfb') in 0.0702946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic07DarkBlueAqua.prefab
+  artifactKey: Guid(ec2ada96e5a5ae745ba5a7221b7ac87a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic07DarkBlueAqua.prefab using Guid(ec2ada96e5a5ae745ba5a7221b7ac87a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd93602c1f528c094521e91a63ea71c4d') in 0.0766542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesGrayYellow
+  artifactKey: Guid(a8875a84134ab1c448ef8677caf4587e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesGrayYellow using Guid(a8875a84134ab1c448ef8677caf4587e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ef3aeb1dfcc868441c1663177d3eaab') in 0.0366632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/RocketYellow.prefab
+  artifactKey: Guid(1f9e84346d58684459d9626c3a28f28b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/RocketYellow.prefab using Guid(1f9e84346d58684459d9626c3a28f28b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '051f08988ab2334ddc5d7a6ea79323b1') in 0.0700399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesOrangeGray/BridgeFence((Climb(2))).prefab
+  artifactKey: Guid(3631c5ae227246343bd33fc3a5fedfae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesOrangeGray/BridgeFence((Climb(2))).prefab using Guid(3631c5ae227246343bd33fc3a5fedfae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e265ec9e9398dfef35a440e48428a6d3') in 0.0840204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Preview/sphere.obj
+  artifactKey: Guid(bbe7556677f89e141a2d4c8458e30a8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Preview/sphere.obj using Guid(bbe7556677f89e141a2d4c8458e30a8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bcb95e7a62867b0d5c8c8199244fe544') in 0.0494932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X4OrangeGray/X4((2(8))+(2(4))).prefab
+  artifactKey: Guid(d6429b3dd15be644eae61f5183a912d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X4OrangeGray/X4((2(8))+(2(4))).prefab using Guid(d6429b3dd15be644eae61f5183a912d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b83e61e4b2a31152521f2b63e6625529') in 0.0826973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/FridgePurpleBuilding_1.prefab
+  artifactKey: Guid(bf93d3dd167cd7c4fa35cc3b05272afb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/FridgePurpleBuilding_1.prefab using Guid(bf93d3dd167cd7c4fa35cc3b05272afb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4642154a23df49c65576596762afa359') in 0.1456938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/TransitionsBlueRed
+  artifactKey: Guid(d4ce39c62e323f749a3bca761a14d0f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/TransitionsBlueRed using Guid(d4ce39c62e323f749a3bca761a14d0f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8355119c98ca0b537b137a5c44c097e') in 0.0566945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesOrangeGray/Climb((2)).prefab
+  artifactKey: Guid(4c7bedb26a3698e4f836b0936a0cac39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesOrangeGray/Climb((2)).prefab using Guid(4c7bedb26a3698e4f836b0936a0cac39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc4ba9605c06504504c4313ebb176a29') in 0.1090676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/MedStand.fbx
+  artifactKey: Guid(3e543463527afc549904e56062444d73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/MedStand.fbx using Guid(3e543463527afc549904e56062444d73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '222b56db9b63edccb1368cde131e3a41') in 0.0490515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/SimpleStandWhite.prefab
+  artifactKey: Guid(14af10dda56393949bb8e0b1177a3368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/SimpleStandWhite.prefab using Guid(14af10dda56393949bb8e0b1177a3368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd35ed7f9ab6c571de14bbcd9417d8029') in 0.0771815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/CandlePurpleBuilding.prefab
+  artifactKey: Guid(cb25cccb10254d943bb057664d4810f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/CandlePurpleBuilding.prefab using Guid(cb25cccb10254d943bb057664d4810f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f342211bdc405a3653da34f104b929f') in 0.0828135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 214
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesOrangeGray/P_BridgeFrame((4_column)).prefab
+  artifactKey: Guid(1c331c81596312d45a4b91f58ed5be9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesOrangeGray/P_BridgeFrame((4_column)).prefab using Guid(1c331c81596312d45a4b91f58ed5be9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa2286a705cb0dc7d7fd7629ac393c62') in 0.0444225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_ColoredSand_s.tga
+  artifactKey: Guid(a75619ff925324146b9f90a44e023f07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_ColoredSand_s.tga using Guid(a75619ff925324146b9f90a44e023f07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47306f0174ff030d8df32b8d5341ac10') in 0.0457098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/4Lines
+  artifactKey: Guid(d1b69c866fdbb5943a537b554a984c92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/4Lines using Guid(d1b69c866fdbb5943a537b554a984c92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf8b0aed0986eb0bf731a77183bc26af') in 0.038395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD4_n.tga
+  artifactKey: Guid(b6b7022eba2214b428011d4671a7cac2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD4_n.tga using Guid(b6b7022eba2214b428011d4671a7cac2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3262e378b26240a529172b1d08c8130a') in 0.0504516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LongSpaces/ambience_long_space_15.wav
+  artifactKey: Guid(35b2328988703ca41a56e309d4d61a84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LongSpaces/ambience_long_space_15.wav using Guid(35b2328988703ca41a56e309d4d61a84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ed803e98f95ee0f89bf1557160a19f6') in 0.5493435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesGrayYellow/Parking((8(1))).prefab
+  artifactKey: Guid(d1c74fe5307d84e478a7b0cb2b9cf09c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesGrayYellow/Parking((8(1))).prefab using Guid(d1c74fe5307d84e478a7b0cb2b9cf09c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57a46e831892c20f6a003f077a41d11e') in 0.0664131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesBlueRed/Climb((2)).prefab
+  artifactKey: Guid(3e0a52f24d4a84344b3030a51b09c974) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesBlueRed/Climb((2)).prefab using Guid(3e0a52f24d4a84344b3030a51b09c974) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0de884fbd114e5de2eddb8495dd3ec8c') in 0.0659607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Transitions/BridgeFence(4_8).fbx
+  artifactKey: Guid(5c45dee0fba031b40a1699fafceb4c8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Transitions/BridgeFence(4_8).fbx using Guid(5c45dee0fba031b40a1699fafceb4c8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1be0be22c0665618c4e6cdbf8b25301') in 0.0392615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Materials/StreetLightsGreen_Black.mat
+  artifactKey: Guid(84f1592729b587847875887a0f98e066) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Materials/StreetLightsGreen_Black.mat using Guid(84f1592729b587847875887a0f98e066) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43adf68b82850f3d08e33734c428cf9b') in 0.0462784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/H1Black.prefab
+  artifactKey: Guid(29369edebe95a8b4696feccc79405fc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/H1Black.prefab using Guid(29369edebe95a8b4696feccc79405fc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6229ae785eef2ea9173f1b8b9c203be') in 0.0436121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P1(2Sidewalk6.5x6.5).fbx
+  artifactKey: Guid(83ddc483648a8694f95d136f1848296d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P1(2Sidewalk6.5x6.5).fbx using Guid(83ddc483648a8694f95d136f1848296d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43957dd36b98b1806aac29d9c2746008') in 0.0421928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Materials/BuildingMat_5_Day.mat
+  artifactKey: Guid(d10db06a3f32fd948836cb900e8ef422) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Materials/BuildingMat_5_Day.mat using Guid(d10db06a3f32fd948836cb900e8ef422) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '592b1bba85f289f84dc1a7d58ac9544d') in 0.137197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TransitionsGrayYellow/2_4.prefab
+  artifactKey: Guid(0e7ccab153d7a224f80fe937271cd803) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TransitionsGrayYellow/2_4.prefab using Guid(0e7ccab153d7a224f80fe937271cd803) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a68a9741ae3324ced3c5425af5c73f1') in 0.059759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesBlueRed/BridgeFence((Сlimb((4))).prefab
+  artifactKey: Guid(0c783d35a3d473943ad9426c91206892) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesBlueRed/BridgeFence((Сlimb((4))).prefab using Guid(0c783d35a3d473943ad9426c91206892) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32ea16b63b58b9719618d92303a59a81') in 0.0730686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesOrangeGray/1(2)0.5.prefab
+  artifactKey: Guid(6829b7ebab51cce46ad381539ea44978) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesOrangeGray/1(2)0.5.prefab using Guid(6829b7ebab51cce46ad381539ea44978) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b90894cbaa5260a653cb5b0e7b0e193') in 0.0662108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/TransitionsOrangeGray/BridgeFence(2_4).prefab
+  artifactKey: Guid(96099dec5dd7e884ead30d7ace027ca6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/TransitionsOrangeGray/BridgeFence(2_4).prefab using Guid(96099dec5dd7e884ead30d7ace027ca6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7fc572482985c599821a36b8865ca36') in 0.0773271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/CandleStandBlack.prefab
+  artifactKey: Guid(6cddd8ec0e0050d4dad9a78075843572) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/CandleStandBlack.prefab using Guid(6cddd8ec0e0050d4dad9a78075843572) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4eb53972c32d4e2026481cb7655581c2') in 0.0382139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesGrayYellow/BridgeFence(Turn(8)).prefab
+  artifactKey: Guid(8938db41dc03b654b9ba24a13f06e717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesGrayYellow/BridgeFence(Turn(8)).prefab using Guid(8938db41dc03b654b9ba24a13f06e717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b66e55d680922fa4a7f2c735913f6d71') in 0.0571578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesBlueRed
+  artifactKey: Guid(62fcc995b4377164fa5f8e6e9d5c0a4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesBlueRed using Guid(62fcc995b4377164fa5f8e6e9d5c0a4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fc6c86417aee16aae206312367ab387') in 0.0311272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesOrangeGray/3(4).prefab
+  artifactKey: Guid(083f12694e4c0ca4fbee82838a1f90ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesOrangeGray/3(4).prefab using Guid(083f12694e4c0ca4fbee82838a1f90ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd38de1d7b75cda51a0e8fb5e02a597b0') in 0.0569114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/GeneratorOrange.prefab
+  artifactKey: Guid(c2392b7b3f6b3294b9d8a8aad6f78ffb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/GeneratorOrange.prefab using Guid(c2392b7b3f6b3294b9d8a8aad6f78ffb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '630e0d864bdaf0cc10232864cd49eb1b') in 0.0532282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/BridgeSupportOrangeGray/BridgeFrame((2)).prefab
+  artifactKey: Guid(9c7dad311381a0e45b0eb71125113d0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/BridgeSupportOrangeGray/BridgeFrame((2)).prefab using Guid(9c7dad311381a0e45b0eb71125113d0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1067e21a024228fd2025c3512bb07ce9') in 0.058186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesBlueRed/Climb((8)).prefab
+  artifactKey: Guid(b7f25fd7c3bda854292ff3145a72e03a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesBlueRed/Climb((8)).prefab using Guid(b7f25fd7c3bda854292ff3145a72e03a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d534523057b81b10c3ba272fbdea658') in 0.0536848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P3(2Road).fbx
+  artifactKey: Guid(78428cb4dfc5aa54bb55499a78a23eba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P3(2Road).fbx using Guid(78428cb4dfc5aa54bb55499a78a23eba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7094f0bc4e2b48babccb284b9beebf7') in 0.041592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P1(4Sidewalk3x3).fbx
+  artifactKey: Guid(245d807d49f9a6f48b6e4f4dc9ab5dda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P1(4Sidewalk3x3).fbx using Guid(245d807d49f9a6f48b6e4f4dc9ab5dda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bcd26fd17d5d4e8b9972ab2aa9e242a5') in 0.0387265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P_Parking(4).fbx
+  artifactKey: Guid(0690eed48756b5248ac748f0de18f1e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P_Parking(4).fbx using Guid(0690eed48756b5248ac748f0de18f1e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1bbe0e110eb508e00f6db4ebef113e1') in 0.0338291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/CandleYellow.prefab
+  artifactKey: Guid(976d576b0c9a88049b4409280d00b74f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/CandleYellow.prefab using Guid(976d576b0c9a88049b4409280d00b74f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64e8ae6ec6201f855bde0da579a9262c') in 0.0574186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_RevealingBricks_n.tga
+  artifactKey: Guid(faa9704b51ce2534ebc283680798b008) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_RevealingBricks_n.tga using Guid(faa9704b51ce2534ebc283680798b008) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73f2b8b8d50d8e0de30cadef5e4271f1') in 0.0581422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/SysPinkYellowBuilding_4.prefab
+  artifactKey: Guid(5ecc63f46b0b55842b29358aaed41406) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/SysPinkYellowBuilding_4.prefab using Guid(5ecc63f46b0b55842b29358aaed41406) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f140167aa033b23922cdae91b68962c2') in 0.0545461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/4Lines/BridgeFence(Turn(4)).fbx
+  artifactKey: Guid(58e0c3122e95f584bbebbf725c07e6a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/4Lines/BridgeFence(Turn(4)).fbx using Guid(58e0c3122e95f584bbebbf725c07e6a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b15a848ea9278d988e6b0e23f8cab4c') in 0.0352659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Textures/1_Metallic.png
+  artifactKey: Guid(c6c4df632c45af94d80963053daed30c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Textures/1_Metallic.png using Guid(c6c4df632c45af94d80963053daed30c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b644401b96a3279106615715c45d3dc') in 0.0392827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/TransitionsOrangeGray/BridgeFence(4_8).prefab
+  artifactKey: Guid(d21c44e0c1ca1874e94f221f5c78ecd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/TransitionsOrangeGray/BridgeFence(4_8).prefab using Guid(d21c44e0c1ca1874e94f221f5c78ecd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30c45d0d03ae6469464bb30712708735') in 0.0581459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TransitionsGrayYellow/Bridge(4_8).prefab
+  artifactKey: Guid(8c3857a82d8d44c4eb50fd14dcf989af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TransitionsGrayYellow/Bridge(4_8).prefab using Guid(8c3857a82d8d44c4eb50fd14dcf989af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42e30a28de452bad43742ad62a541bb5') in 0.0578586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesGrayYellow/Bridge((2))0.5.prefab
+  artifactKey: Guid(c68ec96ec388c764ebffaf45e9ea8857) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesGrayYellow/Bridge((2))0.5.prefab using Guid(c68ec96ec388c764ebffaf45e9ea8857) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '351f21575b9a1200ecf62605aa2456d9') in 0.0671379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Waves.mat
+  artifactKey: Guid(db66224d5e321d44bb3ab6b03fd6832e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Waves.mat using Guid(db66224d5e321d44bb3ab6b03fd6832e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea08b47688c7589c3d0f51ae8d07effd') in 0.0691174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/BridgeSupportGrayYellow/SupportBridge(10x7).prefab
+  artifactKey: Guid(39ccaccf709f6f341951c7c829413edd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/BridgeSupportGrayYellow/SupportBridge(10x7).prefab using Guid(39ccaccf709f6f341951c7c829413edd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ac7544c4547992e948d42ad886ec939') in 0.0591251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/H1.fbx
+  artifactKey: Guid(9bf2727013872e949a6fa5c036b5fe0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/H1.fbx using Guid(9bf2727013872e949a6fa5c036b5fe0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '565fda04c8783c45d305449ac58cdd9d') in 0.0458851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/RocketBlackBuilding.prefab
+  artifactKey: Guid(fd249fabdb0ba244cbd1ff5add743c5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/RocketBlackBuilding.prefab using Guid(fd249fabdb0ba244cbd1ff5add743c5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3951a869a64553c94e2ff308caf92f8') in 0.0637669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 224
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesGrayYellow/BridgeCross(3(4)).prefab
+  artifactKey: Guid(3034a94b37d58854d80114a606f97d98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesGrayYellow/BridgeCross(3(4)).prefab using Guid(3034a94b37d58854d80114a606f97d98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '280f4462eb8206b76b10a911f279ddb9') in 0.0610948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 109
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/8LinesGrayYellow/Turn(8).prefab
+  artifactKey: Guid(bfe7a4e1952bc534c8b3a895ae92925e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/8LinesGrayYellow/Turn(8).prefab using Guid(bfe7a4e1952bc534c8b3a895ae92925e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a0c7a32126754086626eaa6daa292d1') in 0.0579267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 110
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesBlueRed/Parking((4(2))).prefab
+  artifactKey: Guid(68a421b2921c7cd4283ec1c634afdf01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesBlueRed/Parking((4(2))).prefab using Guid(68a421b2921c7cd4283ec1c634afdf01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f07c9359064e47969db9f7626aae2958') in 0.0606084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/SysBlackOrange.prefab
+  artifactKey: Guid(c854d2a54fc9f7a409190e8ba94872ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/SysBlackOrange.prefab using Guid(c854d2a54fc9f7a409190e8ba94872ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2af3fd47c0ee514ab88c36e2f211b6de') in 0.0633746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X3BlueRed/X3((1(8))+(2(4))).prefab
+  artifactKey: Guid(f564fb2cc86939b479074fbffea0f67c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X3BlueRed/X3((1(8))+(2(4))).prefab using Guid(f564fb2cc86939b479074fbffea0f67c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '522131b91b03b836079d51d502de48dd') in 0.0710358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 156
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P_BridgeFrame((2_column)).fbx
+  artifactKey: Guid(feb93ad223e4d5541931655f76f4f433) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P_BridgeFrame((2_column)).fbx using Guid(feb93ad223e4d5541931655f76f4f433) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c5b19a3423c8340ac9adadf4af9d034') in 0.0423421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/BridgeSupportGrayYellow/RoadSupport(29x38).prefab
+  artifactKey: Guid(2f8bd8ea65794204190b7170874b2b13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/BridgeSupportGrayYellow/RoadSupport(29x38).prefab using Guid(2f8bd8ea65794204190b7170874b2b13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd382df4207b8f7851d32211a72988d5') in 0.0611434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesOrangeGray/1(4)0.5.prefab
+  artifactKey: Guid(24e40e4a149388343b5707cacc4dedd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesOrangeGray/1(4)0.5.prefab using Guid(24e40e4a149388343b5707cacc4dedd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '105013dac9bd143251f9515213cf92f9') in 0.0602151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/RocketBlack.prefab
+  artifactKey: Guid(ebe6830707f1f5547ad71a323e0c9161) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/RocketBlack.prefab using Guid(ebe6830707f1f5547ad71a323e0c9161) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '056dfbe53ebd9f6947e0ae8bc4e2bfad') in 0.0394093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P1(2Road).fbx
+  artifactKey: Guid(cd3b5829ed0613d4fbcc8074c6b7188c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/Pieces/P1(2Road).fbx using Guid(cd3b5829ed0613d4fbcc8074c6b7188c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ecc3e1491bfe1771600e16577485e841') in 0.040942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesGrayYellow/2(2).prefab
+  artifactKey: Guid(eb3e74afbb69ba84b916c11034ce39b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesGrayYellow/2(2).prefab using Guid(eb3e74afbb69ba84b916c11034ce39b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db0cccbdb8ac844aa1cd6d287429ca6a') in 0.0601671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Moldy_d.tga
+  artifactKey: Guid(f85540832a23046438dbcf7bdb992611) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Moldy_d.tga using Guid(f85540832a23046438dbcf7bdb992611) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '828c7d38538a1171497b7b8c7b67bbeb') in 0.037416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/X3OrangeGray/X3((2(8))+(1(4))).prefab
+  artifactKey: Guid(2d6d9635c9a2b7243bfa1d3f21844155) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/X3OrangeGray/X3((2(8))+(1(4))).prefab using Guid(2d6d9635c9a2b7243bfa1d3f21844155) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4eca42da52ca71ae23e73e094b04e81') in 0.0617786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/X3OrangeGray/X3((1(8))+(2(4))).prefab
+  artifactKey: Guid(86182fd790826844dadc8d50a7a114da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/X3OrangeGray/X3((1(8))+(2(4))).prefab using Guid(86182fd790826844dadc8d50a7a114da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a7043393d825dbcb90eb8cf6e9bff48') in 0.0634154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/MitikoStand.fbx
+  artifactKey: Guid(a7522b7bc53b8b74d84c819beec2bddb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/MitikoStand.fbx using Guid(a7522b7bc53b8b74d84c819beec2bddb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1760abdff6c8ab25e31da80c85c4c5a') in 0.0455062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesGrayYellow/BridgeCross(4(8)).prefab
+  artifactKey: Guid(e8a031a21f5b7bc4aa632f255265a045) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesGrayYellow/BridgeCross(4(8)).prefab using Guid(e8a031a21f5b7bc4aa632f255265a045) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20c621d1fef3b163549a7f4959660549') in 0.061693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Textures/StreetLightsRedEmission.png
+  artifactKey: Guid(f71d6c6b350a23b4ea86da98412ee620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Textures/StreetLightsRedEmission.png using Guid(f71d6c6b350a23b4ea86da98412ee620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22d1d95eb71f2e4303aba8c63656b3e9') in 0.0360877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/StudioAquaBuilding_2.prefab
+  artifactKey: Guid(a82d705325233c44b985cda66850fe8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/StudioAquaBuilding_2.prefab using Guid(a82d705325233c44b985cda66850fe8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a968b1e733f2e102515f70b05a1f4313') in 0.0629419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 449
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesOrangeGray/BridgeFence((4)).prefab
+  artifactKey: Guid(20455a9bd91696e43883eea46ab37a41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesOrangeGray/BridgeFence((4)).prefab using Guid(20455a9bd91696e43883eea46ab37a41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2b33b63d2fff5100b97a9f2ce37b7b0') in 0.0625553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic03BlueYellow.prefab
+  artifactKey: Guid(fb55bad97ed25f94fa864a00b70abe72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic03BlueYellow.prefab using Guid(fb55bad97ed25f94fa864a00b70abe72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0745546bd3f48f05cc1d82369f5de5cf') in 0.0666589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesGrayYellow/BridgeFence(Turn(4)).prefab
+  artifactKey: Guid(eb88c2fc0091bdb4c97ea2fd2af2573d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesGrayYellow/BridgeFence(Turn(4)).prefab using Guid(eb88c2fc0091bdb4c97ea2fd2af2573d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e38f3c41fe61a47882d7b53093e27d83') in 0.0652894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003253 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X3GrayYellow
+  artifactKey: Guid(e0c7088d14ef6464c9913f9793496495) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X3GrayYellow using Guid(e0c7088d14ef6464c9913f9793496495) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f0f7e1ffa2fdd49635e54d7f9f240cc') in 0.0374454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesBlueRed/Bridge((4))0.5.prefab
+  artifactKey: Guid(ca54831b29e8a0244a6b3a93024b0403) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesBlueRed/Bridge((4))0.5.prefab using Guid(ca54831b29e8a0244a6b3a93024b0403) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65d878906abe35167aa4b83585d5f662') in 0.0654767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TrafficLightsGrayYellow/BigStreetTraficLightRed(4).prefab
+  artifactKey: Guid(d9053ff4bf4ba6b45b33e670653d9361) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TrafficLightsGrayYellow/BigStreetTraficLightRed(4).prefab using Guid(d9053ff4bf4ba6b45b33e670653d9361) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f44d61476e0cd09edacdadb56808a3e5') in 0.0407475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Textures/1_BlueRedDiffuse.png
+  artifactKey: Guid(cc70f262159c4c647850117981413d3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Textures/1_BlueRedDiffuse.png using Guid(cc70f262159c4c647850117981413d3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58fdc118aa2beb7d0c03e3f1ca5304aa') in 0.044804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/xScreenSpaceBuild1.prefab
+  artifactKey: Guid(0814901c2ed6f114bb32210702daea82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/xScreenSpaceBuild1.prefab using Guid(0814901c2ed6f114bb32210702daea82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ea134fe248fe887e527aa104f62976c') in 0.0392896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/OctagonStandBlue.prefab
+  artifactKey: Guid(f0cb80364d55a1f499ee363ef3677a08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/OctagonStandBlue.prefab using Guid(f0cb80364d55a1f499ee363ef3677a08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae8422f5ec5087976d81daffaff8bdb4') in 0.0621374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/EmpireStandYellow.prefab
+  artifactKey: Guid(7c59fabc25d3e6d4e8bfb71323a3273b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/EmpireStandYellow.prefab using Guid(7c59fabc25d3e6d4e8bfb71323a3273b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be526408adec3073cef0f170c0b72086') in 0.0585207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TransitionsOrangeGray
+  artifactKey: Guid(69a64f700c525b943838bd3802dfe08c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TransitionsOrangeGray using Guid(69a64f700c525b943838bd3802dfe08c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ac1b0269d56be9937d3f30b72299403') in 0.0318006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesGrayYellow/4(8).prefab
+  artifactKey: Guid(7c0af6e054c237e45962ab57306c506b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesGrayYellow/4(8).prefab using Guid(7c0af6e054c237e45962ab57306c506b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4aab189aa200a89846170928d137700c') in 0.0579291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/FridgeRedBuilding_3.prefab
+  artifactKey: Guid(a7bf422f4acddbe46a3d2110fc6e0e7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/FridgeRedBuilding_3.prefab using Guid(a7bf422f4acddbe46a3d2110fc6e0e7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5237c84405f9910d8965b7c11158fa9a') in 0.0653282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 163
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/8LinesBlueRed/Bridge(Turn(8)).prefab
+  artifactKey: Guid(66e912925e77ab046abd88899596b035) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/8LinesBlueRed/Bridge(Turn(8)).prefab using Guid(66e912925e77ab046abd88899596b035) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1fd54ceb3da363fd207384d54c0cf33f') in 0.0624493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 110
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/2Lines/Bridge((Climb(2))).fbx
+  artifactKey: Guid(73c41f47efc8401489a5c023007554cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/2Lines/Bridge((Climb(2))).fbx using Guid(73c41f47efc8401489a5c023007554cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cacf294b94694becccd3a685316856e8') in 0.0365472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite
+  artifactKey: Guid(c26dbc10bccc18442960949f9e5c6353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite using Guid(c26dbc10bccc18442960949f9e5c6353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbdc44c524153ef7c8bb04a482af1968') in 0.035547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/StudioBrown.prefab
+  artifactKey: Guid(0eaf299edd563d547b6d4406c94931de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/StudioBrown.prefab using Guid(0eaf299edd563d547b6d4406c94931de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c64fcf9b0fa0125d6b1278151824c1b') in 0.0594455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesOrangeGray/Parking((2(1))).prefab
+  artifactKey: Guid(84d90a3a13e4d19429d0b5e0529ee9d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/2LinesOrangeGray/Parking((2(1))).prefab using Guid(84d90a3a13e4d19429d0b5e0529ee9d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbf1284c464d36333246ef86a8991993') in 0.0577614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/GeneratorGray.prefab
+  artifactKey: Guid(eb7299399f314b941b921d646ec2ac45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/GeneratorGray.prefab using Guid(eb7299399f314b941b921d646ec2ac45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '342cd86ed33f3e36abfe55d40e28c73d') in 0.0339376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X4OrangeGray/X4((2(4))+(2(2))).prefab
+  artifactKey: Guid(7e4a3f7ae56b3e04aac44edcd84775d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X4OrangeGray/X4((2(4))+(2(2))).prefab using Guid(7e4a3f7ae56b3e04aac44edcd84775d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b95c34c15a353afb677eb059a4ca87b8') in 0.0616194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TrafficLightsGrayYellow/TraficLightCarRed.prefab
+  artifactKey: Guid(9b4792bef7bb8af428d06f4917bbff86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TrafficLightsGrayYellow/TraficLightCarRed.prefab using Guid(9b4792bef7bb8af428d06f4917bbff86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc5db1e9a501d6132a12e555854e28a1') in 0.0405426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesGrayYellow/Bridge(Turn(2)).prefab
+  artifactKey: Guid(3b093d3686590344da6ce8c996ac9cea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesGrayYellow/Bridge(Turn(2)).prefab using Guid(3b093d3686590344da6ce8c996ac9cea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26b3b6ae8893c5eb5aaf944e0f6ee438') in 0.0571869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models
+  artifactKey: Guid(a04256c6863a00944bdd1b37748ade25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models using Guid(a04256c6863a00944bdd1b37748ade25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31f29b53d57b4d4a4c4c810194b49bb4') in 0.0281268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/ArsStandBlack.prefab
+  artifactKey: Guid(ca073be3b69c6384ea51fbb88801a59d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/ArsStandBlack.prefab using Guid(ca073be3b69c6384ea51fbb88801a59d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ccace3ddafebc361e71824d1fe04eb6d') in 0.037021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/Capsule.fbx
+  artifactKey: Guid(602799a7063d3e24e953c61eb8907a76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/Capsule.fbx using Guid(602799a7063d3e24e953c61eb8907a76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ef87df01c195a9b778df0101a299536') in 0.035894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd34c176413aaa7253fd34d6dca08b8c6') in 0.0323892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/2Lines/Turn(2).fbx
+  artifactKey: Guid(523767a16e62ddf47bab49b0eb1392da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/2Lines/Turn(2).fbx using Guid(523767a16e62ddf47bab49b0eb1392da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7bdd24ea95b91fb5ec64157b67842101') in 0.0378142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack
+  artifactKey: Guid(ee31e3520aef5ea478d6c6a795ee8f9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack using Guid(ee31e3520aef5ea478d6c6a795ee8f9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '404910e5488017c56e283081b7bcc2d6') in 0.033941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/StudioBrownBuilding_1.prefab
+  artifactKey: Guid(53892a693d63a7b41a4f19af880b3c01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Buildings/StudioBrownBuilding_1.prefab using Guid(53892a693d63a7b41a4f19af880b3c01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e5f97d7675498f9dc66f0f09e6fbd5d') in 0.0602957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 444
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X4BlueRed/X4((2(8))+(2(4))).prefab
+  artifactKey: Guid(2473d17b56d17c548a4ba40a3a97023b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/X4BlueRed/X4((2(8))+(2(4))).prefab using Guid(2473d17b56d17c548a4ba40a3a97023b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7bf4a4221231e4d3beb886aa12d923d') in 0.0643272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesGrayYellow/1(4).prefab
+  artifactKey: Guid(21a85cad0f8fc9a47b858f0bfa76ea4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Road_with_StreetLights/4LinesGrayYellow/1(4).prefab using Guid(21a85cad0f8fc9a47b858f0bfa76ea4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93ca3a814a979217ed150c1b78135c03') in 0.0589103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/MedPink.prefab
+  artifactKey: Guid(02c572856066020458a2d1a2faf283df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/MedPink.prefab using Guid(02c572856066020458a2d1a2faf283df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da110e5340eb17923cda8cfffcd8227c') in 0.0566126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/2Lines/2(2).fbx
+  artifactKey: Guid(fbec144aeb7b6dd41a9fe342cfd90e6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Textures_Materials_Models/Models/2Lines/2(2).fbx using Guid(fbec144aeb7b6dd41a9fe342cfd90e6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3196d95f8a277580041b2eb109d590e3') in 0.0391694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic07LightGrayRed.prefab
+  artifactKey: Guid(fc39120f510215e49b71f58e9e532fd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic07LightGrayRed.prefab using Guid(fc39120f510215e49b71f58e9e532fd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '544300976d2153b4fb55bb828e2205e9') in 0.0544338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesOrangeGray/Bridge(Turn(8)).prefab
+  artifactKey: Guid(510fe36ac608d4845b7bec86465959d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesOrangeGray/Bridge(Turn(8)).prefab using Guid(510fe36ac608d4845b7bec86465959d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2060683909f457de456b461a7210b386') in 0.0594421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesOrangeGray/BigParking((8)).prefab
+  artifactKey: Guid(d462c3e44d7d5124887e284fcc124717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/8LinesOrangeGray/BigParking((8)).prefab using Guid(d462c3e44d7d5124887e284fcc124717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd79f6c611b2834cc71b6b4f228117492') in 0.0627155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic02LightGrayRed.prefab
+  artifactKey: Guid(af2c4b3755a8e314ea3cca47f34962ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Prefabs/Pieces/Helic02LightGrayRed.prefab using Guid(af2c4b3755a8e314ea3cca47f34962ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '570aa54ecc7fad3aaa89bb4b516c7311') in 0.0387425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesBlueRed/P1(2Sidewalk6.5x6.5).prefab
+  artifactKey: Guid(1fabcc2d115a17845b82b55538e7daed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/PiecesBlueRed/P1(2Sidewalk6.5x6.5).prefab using Guid(1fabcc2d115a17845b82b55538e7daed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7988cac99ec3e1b1f294a1da5092bb8') in 0.0690039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LongSpaces
+  artifactKey: Guid(37e958e4ae311b14585217312ed4377f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LongSpaces using Guid(37e958e4ae311b14585217312ed4377f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e983d93b786bfbfc8670972c0dd6e4b') in 0.0297852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/X3BlueRed/X3((1(8))+(2(2))).prefab
+  artifactKey: Guid(4773164fff472c74d826e5a30aef070a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/X3BlueRed/X3((1(8))+(2(2))).prefab using Guid(4773164fff472c74d826e5a30aef070a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fec2c0f78a93f9fd99ddcf7027a87df') in 0.0618438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc0c294a7a82e2388c254126340a6700') in 0.0545089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/BridgeSupportBlueRed
+  artifactKey: Guid(2f24a415b9311bf4ea7f60aff98a1c7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/BridgeSupportBlueRed using Guid(2f24a415b9311bf4ea7f60aff98a1c7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4496da2a92e5b7fc7344836f28a6bc9') in 0.0302657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesGrayYellow/BridgeFence((Сlimb((4))).prefab
+  artifactKey: Guid(f35deeb5bd7b2ae488a862b9fefc29aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/4LinesGrayYellow/BridgeFence((Сlimb((4))).prefab using Guid(f35deeb5bd7b2ae488a862b9fefc29aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3010e0e09abbab3cc172cce2289a0bf6') in 0.067255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/game/Scenes/obstacle (9).prefab
+  artifactKey: Guid(93f3cb1456c1f54408ef91cd1bd80288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/game/Scenes/obstacle (9).prefab using Guid(93f3cb1456c1f54408ef91cd1bd80288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16cab4c0fbdd81ac17866b0bf2e5ccbe') in 0.0422858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/xScreenH1002.fbx
+  artifactKey: Guid(61f389aaca26c8f4689ba239a4156957) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Buildings_Pack/Textures_Materials_Models/Models/xScreenH1002.fbx using Guid(61f389aaca26c8f4689ba239a4156957) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '475edc6aeb7831755ba3c1a6dcb3bbc1') in 0.041349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TransitionsGrayYellow/BridgeFence(2_4).prefab
+  artifactKey: Guid(c0737497b9d235142b373882f784410f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/TransitionsGrayYellow/BridgeFence(2_4).prefab using Guid(c0737497b9d235142b373882f784410f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9085cabb3eaa986cd2cc818b5eb75ac0') in 0.0723849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesGrayYellow/Climb((2)).prefab
+  artifactKey: Guid(ea04d7dbef488da4ba7117990a38717b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low_Poly_Sci-fi_City/Roads_Pack/Prefabs/Segments/2LinesGrayYellow/Climb((2)).prefab using Guid(ea04d7dbef488da4ba7117990a38717b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '453b76740c8af8a2ef4fb0b74b4f559c') in 0.0657655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
