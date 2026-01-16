@@ -1,10 +1,9 @@
-database is locked
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.3f1 (ef04196de0d6) revision 15664153'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-omerm" at "2026-01-15T23:57:56.6887625Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-omerm" at "2026-01-16T09:19:12.1009574Z"
 OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 32175 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-01-15T23:57:56Z
+Date: 2026-01-16T09:19:12Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Unity.exe
@@ -18,7 +17,7 @@ C:/Users/omerm/Documents/GitHub/KratosDieTwice/KratosDieTwice
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-3615
+9731
 -licensingIpc
 LicenseClient-omerm
 -job-worker-count
@@ -66,12 +65,12 @@ C:/Users/omerm/Documents/GitHub/KratosDieTwice/KratosDieTwice
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [25284]  Target information:
+Player connection [7736]  Target information:
 
-Player connection [25284]  * "[IP] 10.143.90.204 [Port] 0 [Flags] 2 [Guid] 2826314905 [EditorId] 2826314905 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7736]  * "[IP] 192.168.224.180 [Port] 0 [Flags] 2 [Guid] 1416173463 [EditorId] 1416173463 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25284] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25284] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7736] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7736] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -83,7 +82,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.3f1 (ef04196de0d6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -99,52 +98,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              2c8368ce7f2d451baeb43ebb201a0fb3
-  Correlation Id:          e05c85cb4fd3125a192bf55aa260ec2b
-  External correlation Id: 9157792431397003014
-  Machine Id:              pmNZprb+zyOzXlCt14cezMCcpOk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-omerm" (connect: 0.00s, validation: 0.00s, handshake: 1.24s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-omerm-notifications" at "2026-01-15T23:57:57.926724Z"
-[Licensing::Module] Licensing Background thread has ended after 1.24s
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003108 seconds.
-- Loaded All Assemblies, in  0.328 seconds
+Registered in 0.001165 seconds.
+- Loaded All Assemblies, in  0.302 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.288 seconds
-Domain Reload Profiling: 614ms
-	BeginReloadAssembly (130ms)
+- Finished resetting the current domain, in  0.297 seconds
+Domain Reload Profiling: 598ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (124ms)
-		LoadAssemblies (127ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (106ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (102ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (289ms)
+	FinalizeReload (298ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (257ms)
+		SetupLoadedEditorAssemblies (270ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
+			InitializePlatformSupportModulesInManaged (31ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (110ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -153,93 +143,878 @@ Domain Reload Profiling: 614ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              01acdba1c2154c3388743bfd2a9c2494
+  Correlation Id:          6bf57e68add6488ce591e889227ca312
+  External correlation Id: 3264799204606064115
+  Machine Id:              pmNZprb+zyOzXlCt14cezMCcpOk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-omerm" (connect: 0.00s, validation: 0.00s, handshake: 2.33s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-omerm-notifications" at "2026-01-16T09:19:14.4288641Z"
+[Licensing::Module] Licensing Background thread has ended after 2.33s
+[Licensing::Module] Licensing is initialized (took 0.52s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 18966909802493-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.159 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.077 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.498 seconds
-Domain Reload Profiling: 1655ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  0.479 seconds
+Domain Reload Profiling: 1553ms
+	BeginReloadAssembly (675ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (976ms)
-		LoadAssemblies (923ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (295ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (120ms)
-			TypeCache.Refresh (94ms)
-				TypeCache.ScanAssembly (84ms)
-			BuildScriptInfoCaches (18ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (83ms)
+			BuildScriptInfoCaches (19ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (498ms)
+	FinalizeReload (480ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (423ms)
+		SetupLoadedEditorAssemblies (407ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (307ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3863 unused Assets / (1.0 MB). Loaded Objects now: 4460.
-Memory consumption went from 95.2 MB to 94.1 MB.
-Total: 5.117400 ms (FindLiveObjects: 0.350200 ms CreateObjectMapping: 0.264300 ms MarkObjects: 3.704700 ms  DeleteObjects: 0.797200 ms)
+Unloading 3868 unused Assets / (1.3 MB). Loaded Objects now: 4466.
+Memory consumption went from 98.5 MB to 97.2 MB.
+Total: 8.581600 ms (FindLiveObjects: 0.402800 ms CreateObjectMapping: 0.292400 ms MarkObjects: 6.137900 ms  DeleteObjects: 1.746800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9514.994062 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/SmallSpaces/ambience_small_space_14.wav
-  artifactKey: Guid(eab4592278d7cb74b8e5371b9cea6ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/SmallSpaces/ambience_small_space_14.wav using Guid(eab4592278d7cb74b8e5371b9cea6ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '541f8525d28d8c17ff195f4371555329') in 0.341342 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 43224.568502 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Honeycombing.mat
+  artifactKey: Guid(6143b7d0c26393b42993262048015157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Honeycombing.mat using Guid(6143b7d0c26393b42993262048015157) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a45fe82459d708cf2c697ae4ade1f6c') in 0.0748837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.437 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.462 seconds
+Domain Reload Profiling: 899ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (72ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (463ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3866 unused Assets / (0.9 MB). Loaded Objects now: 4511.
+Memory consumption went from 100.3 MB to 99.4 MB.
+Total: 5.010600 ms (FindLiveObjects: 0.355100 ms CreateObjectMapping: 0.275700 ms MarkObjects: 3.568600 ms  DeleteObjects: 0.810000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.421 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.489 seconds
+Domain Reload Profiling: 909ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (90ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (489ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (411ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3866 unused Assets / (0.9 MB). Loaded Objects now: 4512.
+Memory consumption went from 100.3 MB to 99.4 MB.
+Total: 5.639000 ms (FindLiveObjects: 0.480800 ms CreateObjectMapping: 0.359300 ms MarkObjects: 3.933900 ms  DeleteObjects: 0.864000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.420 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.477 seconds
+Domain Reload Profiling: 897ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (402ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3866 unused Assets / (0.9 MB). Loaded Objects now: 4513.
+Memory consumption went from 100.3 MB to 99.5 MB.
+Total: 4.906900 ms (FindLiveObjects: 0.386800 ms CreateObjectMapping: 0.326900 ms MarkObjects: 3.536800 ms  DeleteObjects: 0.655500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.423 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.492 seconds
+Domain Reload Profiling: 915ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (73ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (492ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3866 unused Assets / (0.9 MB). Loaded Objects now: 4514.
+Memory consumption went from 100.3 MB to 99.5 MB.
+Total: 4.908300 ms (FindLiveObjects: 0.368200 ms CreateObjectMapping: 0.352700 ms MarkObjects: 3.485200 ms  DeleteObjects: 0.701500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.432 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 913ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (90ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (481ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (404ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3866 unused Assets / (0.8 MB). Loaded Objects now: 4515.
+Memory consumption went from 100.3 MB to 99.6 MB.
+Total: 5.169500 ms (FindLiveObjects: 0.470700 ms CreateObjectMapping: 0.286400 ms MarkObjects: 3.737600 ms  DeleteObjects: 0.673700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.418 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.479 seconds
+Domain Reload Profiling: 896ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (73ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (479ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3866 unused Assets / (0.8 MB). Loaded Objects now: 4516.
+Memory consumption went from 100.3 MB to 99.5 MB.
+Total: 4.858500 ms (FindLiveObjects: 0.373000 ms CreateObjectMapping: 0.280500 ms MarkObjects: 3.522900 ms  DeleteObjects: 0.681000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.420 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.497 seconds
+Domain Reload Profiling: 918ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (498ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (420ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3866 unused Assets / (0.9 MB). Loaded Objects now: 4517.
+Memory consumption went from 100.3 MB to 99.4 MB.
+Total: 5.354000 ms (FindLiveObjects: 0.364500 ms CreateObjectMapping: 0.351900 ms MarkObjects: 3.723200 ms  DeleteObjects: 0.913000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1217.606744 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Slab1x1_s.tga
+  artifactKey: Guid(92f5681fa5d6d804aa4a55cf8e973f9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Slab1x1_s.tga using Guid(92f5681fa5d6d804aa4a55cf8e973f9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6172f022b460aaadbc728057586931d4') in 0.1005919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.955029 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/MediumSpaces/ambience_medium_space_13.wav
-  artifactKey: Guid(1e9f65abfddf8de40bf40000e0220a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/MediumSpaces/ambience_medium_space_13.wav using Guid(1e9f65abfddf8de40bf40000e0220a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5265ca6d98acebcd25590189a89baaa0') in 0.2235593 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000040 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_BrushedWorn.mat
+  artifactKey: Guid(a73ce97174548ff43becf7076bf810d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_BrushedWorn.mat using Guid(a73ce97174548ff43becf7076bf810d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b02d4c07d675724136e05180fdd131e') in 0.0211351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.229574 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LongSpaces/ambience_long_space_15.wav
-  artifactKey: Guid(35b2328988703ca41a56e309d4d61a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LongSpaces/ambience_long_space_15.wav using Guid(35b2328988703ca41a56e309d4d61a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f673d1dd5fb6d3779cf448279bdf7e72') in 0.1640843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000015 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Polished_d.tga
+  artifactKey: Guid(87cb2e4e4720fde4cadc6019b69306d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Polished_d.tga using Guid(87cb2e4e4720fde4cadc6019b69306d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f1d16920f8102ec3b8ffc8f7f9ab471') in 0.0060795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.102260 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LargeRooms/ambience_large_room_13.wav
-  artifactKey: Guid(d0d67c772fb13dd4ca9603a873cc0102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LargeRooms/ambience_large_room_13.wav using Guid(d0d67c772fb13dd4ca9603a873cc0102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b960715ade9795c69314bdf8fecc3d4') in 0.1530311 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000079 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_BrushedWorn_d.tga
+  artifactKey: Guid(4b46b25e1bf885643b9dbe49edae4cde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_BrushedWorn_d.tga using Guid(4b46b25e1bf885643b9dbe49edae4cde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3236c364123252602b73ab26acba73a3') in 0.0077766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered_d.tga
+  artifactKey: Guid(9fe329039800807419f8524939fdf3ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered_d.tga using Guid(9fe329039800807419f8524939fdf3ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86a92838957fe4014940370aed2604d0') in 0.0235888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD8_n.tga
+  artifactKey: Guid(67855112e5308b349a6e2386ba9f0494) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD8_n.tga using Guid(67855112e5308b349a6e2386ba9f0494) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '994b07183dbab9c26b91d2aa69c439df') in 0.00673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_CrossSlabs_s.tga
+  artifactKey: Guid(7f0d95a818b42534daf870862740a25e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_CrossSlabs_s.tga using Guid(7f0d95a818b42534daf870862740a25e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15b509e8c695cdd1b93483b5112be4ef') in 0.0085459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Preview/P_Sphere.prefab
+  artifactKey: Guid(674a1ab0b4b043a47843ff5087090555) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Preview/P_Sphere.prefab using Guid(674a1ab0b4b043a47843ff5087090555) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d8e00223a6cb56d65457a29a08b6958') in 0.023491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Slab1x1_n.tga
+  artifactKey: Guid(1a15a7c650d5aa949aa0eaa8ea69f76d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Slab1x1_n.tga using Guid(1a15a7c650d5aa949aa0eaa8ea69f76d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9febdb1851d16f6609d91ad845a8383') in 0.007367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_ColoredSand.mat
+  artifactKey: Guid(01219acc239963a40aa907c2a99c293d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_ColoredSand.mat using Guid(01219acc239963a40aa907c2a99c293d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05d1362b8a5a987b0989bedea9ebe574') in 0.0073202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Crystallized_s.tga
+  artifactKey: Guid(3df80b44028bcea4a88d1dd288142e63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Crystallized_s.tga using Guid(3df80b44028bcea4a88d1dd288142e63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55e348ccd8e30036a3bc3d34f63e3110') in 0.0062864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered_n.tga
+  artifactKey: Guid(db82daf61262e8e469bf56b16542215e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered_n.tga using Guid(db82daf61262e8e469bf56b16542215e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc600ee0757946c2ec6b586eb0caf686') in 0.0075954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_SaltFinish_s.tga
+  artifactKey: Guid(5741368303aafb940b75af80a5aeb1ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_SaltFinish_s.tga using Guid(5741368303aafb940b75af80a5aeb1ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f6ad8c428af545c7b0466a5160f3030') in 0.0063316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Moldy_d.tga
+  artifactKey: Guid(f85540832a23046438dbcf7bdb992611) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Moldy_d.tga using Guid(f85540832a23046438dbcf7bdb992611) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ceec017e30e313c1c97c221110cfe1e') in 0.0054103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_ColoredSand_d.tga
+  artifactKey: Guid(18cf1940a7d5d1247a1e988c7556c0f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_ColoredSand_d.tga using Guid(18cf1940a7d5d1247a1e988c7556c0f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36ba46551da6352ca40526066e2c6fcd') in 0.006198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Scifi_n.tga
+  artifactKey: Guid(3251842e881be284db25d2016562c108) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Scifi_n.tga using Guid(3251842e881be284db25d2016562c108) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da6a68575486310370d2119282e6ee7f') in 0.0079709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Preview
+  artifactKey: Guid(9da74cbc685daf543844df0b15718da2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Preview using Guid(9da74cbc685daf543844df0b15718da2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d799ab8b819a3de8d8c7a9506cdd8ef') in 0.0033141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures
+  artifactKey: Guid(7d4c2d278fc13884db12980b6bd86dbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures using Guid(7d4c2d278fc13884db12980b6bd86dbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7625d0014fc1896c9f67c40986e314d4') in 0.0037344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_PrecastD8.mat
+  artifactKey: Guid(0c8a4ea0b219d124b9beb770321290f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_PrecastD8.mat using Guid(0c8a4ea0b219d124b9beb770321290f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4fb4cc771a0cc0a214aa83a56339b5ae') in 0.0069882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Fibers_d.tga
+  artifactKey: Guid(19401f4bf9b46b04a87e7b4afa61d393) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Fibers_d.tga using Guid(19401f4bf9b46b04a87e7b4afa61d393) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9ef85b01f5444c3cf420465f4f73d61') in 0.0059489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Polished_n.tga
+  artifactKey: Guid(ff44e4c4c1c29b94fa935ccbe81eba93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Polished_n.tga using Guid(ff44e4c4c1c29b94fa935ccbe81eba93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3424f1abe5d6fee7bd1fe8f72901cc6') in 0.006402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Spalling_d.tga
+  artifactKey: Guid(adb16d05b797af74e8df484ad1762356) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Spalling_d.tga using Guid(adb16d05b797af74e8df484ad1762356) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f103fa4bd245c8762e0692eb635233bb') in 0.0101653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials
+  artifactKey: Guid(65592b7451c24c1459016a456f784b39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials using Guid(65592b7451c24c1459016a456f784b39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0908f1a6f5783129a291b3024218a3a') in 0.0026475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_ColoredSand_s.tga
+  artifactKey: Guid(a75619ff925324146b9f90a44e023f07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_ColoredSand_s.tga using Guid(a75619ff925324146b9f90a44e023f07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc200736bee99351704a2667ac01b2c0') in 0.006834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD16_s.tga
+  artifactKey: Guid(9cd476a2b114ef944bdc17bbb9e4c5cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD16_s.tga using Guid(9cd476a2b114ef944bdc17bbb9e4c5cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9dd68d0bda24e235e89a14014857eb5') in 0.0064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Stamped01.mat
+  artifactKey: Guid(b40547493aafb944480a5af970b1008d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Stamped01.mat using Guid(b40547493aafb944480a5af970b1008d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc560e81abdb13eb854faa52c4a6b246') in 0.0070639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Moldy.mat
+  artifactKey: Guid(f9d0aaccbb1287443af09bde2f3c6b33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Moldy.mat using Guid(f9d0aaccbb1287443af09bde2f3c6b33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d63d3fd0c93878a6a6b5e83ca6cef4f') in 0.0077495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_SaltFinish_d.tga
+  artifactKey: Guid(61442872b6bc7224cab419de68405dd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_SaltFinish_d.tga using Guid(61442872b6bc7224cab419de68405dd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7fd70896b6b1d5b7e130efe5626bb36b') in 0.0054467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Stamped02_n.tga
+  artifactKey: Guid(cff4b77da200d7345a20a1e121c473e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Stamped02_n.tga using Guid(cff4b77da200d7345a20a1e121c473e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '487c4bdf6c84869a45e4b13c730163d2') in 0.0071931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Crystallized.mat
+  artifactKey: Guid(567bd52a381732c47bcc7dc4ca57e203) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Crystallized.mat using Guid(567bd52a381732c47bcc7dc4ca57e203) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e0be777b0b5f4b66cf9b50524ca7995') in 0.007439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Spalling_n.tga
+  artifactKey: Guid(db1031b4a217ae7478df55171c585fd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Spalling_n.tga using Guid(db1031b4a217ae7478df55171c585fd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e964eda119472a797f119d900d314882') in 0.0070229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Fibers.mat
+  artifactKey: Guid(6eef35d63db888f45bcdeb9ae09951b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Fibers.mat using Guid(6eef35d63db888f45bcdeb9ae09951b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbf5f1387a53c795c9703b3aeb514e72') in 0.0064974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Moldy_s.tga
+  artifactKey: Guid(78bffb9ab6ba88b4f913e326224e3449) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Moldy_s.tga using Guid(78bffb9ab6ba88b4f913e326224e3449) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '089bdfa14420760b7109c4607be949d3') in 0.00743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_SaltFinish_n.tga
+  artifactKey: Guid(34b2470bfc1175a41a8ed320fa56db0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_SaltFinish_n.tga using Guid(34b2470bfc1175a41a8ed320fa56db0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11511cb48f5f83cb42f9334b6f8c792e') in 0.0067179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Preview/T_Checker.tga
+  artifactKey: Guid(68f881f30360f9a44aba08745d6d9274) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Preview/T_Checker.tga using Guid(68f881f30360f9a44aba08745d6d9274) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd37f7bbed58be5125f0bd90a90bc43e0') in 0.0076363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD16_n.tga
+  artifactKey: Guid(528ca4670dfc21345afbda263f979603) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD16_n.tga using Guid(528ca4670dfc21345afbda263f979603) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8dc85bf0f3e5d37d759c1a13dc95d68a') in 0.0060332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_CrossSlabs_d.tga
+  artifactKey: Guid(cfbe25bb9e750c642a259a4f0ac25d97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_CrossSlabs_d.tga using Guid(cfbe25bb9e750c642a259a4f0ac25d97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2fa5fcd4c2e426185e3dfd8343f0290e') in 0.0061984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Honeycombing_n.tga
+  artifactKey: Guid(58955d9e7c6a45840afbdfc31c3660c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Honeycombing_n.tga using Guid(58955d9e7c6a45840afbdfc31c3660c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '66b54c280ef7175e70cfb9a133e4d573') in 0.0077902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_PrecastD16.mat
+  artifactKey: Guid(5134fa419cebfb04fb640549385cc16c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_PrecastD16.mat using Guid(5134fa419cebfb04fb640549385cc16c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30d418d3b038b773da5b041ae50e6c72') in 0.0066295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_ColoredSand_n.tga
+  artifactKey: Guid(dd36948cb2281a540ac3cc45f5d18716) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_ColoredSand_n.tga using Guid(dd36948cb2281a540ac3cc45f5d18716) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7f18561ca63a77181ba6f7aaa0f185b') in 0.0086431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/Mecha01.obj
+  artifactKey: Guid(feee99b7a9c3e3940a944f01422c9efe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/Mecha01.obj using Guid(feee99b7a9c3e3940a944f01422c9efe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b576fa7996f0af6ab931a53f80ab938') in 0.0209163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Polished.mat
+  artifactKey: Guid(4e9d0c37787f479428bdf2ab1220936b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Polished.mat using Guid(4e9d0c37787f479428bdf2ab1220936b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2665a255d1277a318e4bf3e1020c1a69') in 0.0070679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Honeycombing_s.tga
+  artifactKey: Guid(bfdabb4ab22f42042b01233bf97ae564) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Honeycombing_s.tga using Guid(bfdabb4ab22f42042b01233bf97ae564) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da6aaefe8da0aa6eb9ffaffc7d0a7c0c') in 0.0063713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD4_n.tga
+  artifactKey: Guid(b6b7022eba2214b428011d4671a7cac2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD4_n.tga using Guid(b6b7022eba2214b428011d4671a7cac2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28cee453e6ad30c3afd0f3065e11f63d') in 0.0072065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD8_s.tga
+  artifactKey: Guid(ebee247f63a346940a6fd3e7a34e18c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD8_s.tga using Guid(ebee247f63a346940a6fd3e7a34e18c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d3de602e60d538a7958ded76c6f4177') in 0.0079029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_BrushedWorn_s.tga
+  artifactKey: Guid(7c9e2892c63d9bc4788266a473a2e2a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_BrushedWorn_s.tga using Guid(7c9e2892c63d9bc4788266a473a2e2a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0919822517be626dcec39c4d9007799') in 0.0066289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Waves_s.tga
+  artifactKey: Guid(588798f66bab1dc469a78b05d3c2d7f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Waves_s.tga using Guid(588798f66bab1dc469a78b05d3c2d7f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7077c91042fd99c510a8394032dbb1b6') in 0.0060593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3861 unused Assets / (0.9 MB). Loaded Objects now: 4518.
+Memory consumption went from 101.3 MB to 100.4 MB.
+Total: 5.892700 ms (FindLiveObjects: 0.363700 ms CreateObjectMapping: 0.384000 ms MarkObjects: 4.292500 ms  DeleteObjects: 0.851700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.492 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.528 seconds
+Domain Reload Profiling: 1019ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (272ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (87ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (528ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3867 unused Assets / (0.8 MB). Loaded Objects now: 4519.
+Memory consumption went from 100.8 MB to 100.1 MB.
+Total: 5.011900 ms (FindLiveObjects: 0.376300 ms CreateObjectMapping: 0.277300 ms MarkObjects: 3.718800 ms  DeleteObjects: 0.638800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

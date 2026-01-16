@@ -51,10 +51,13 @@
     <Compile Include="Assets\game\scripts\plane movement 1.cs" />
     <Compile Include="Assets\game\scripts\MovementAlternate.cs" />
     <Compile Include="Assets\Low_Poly_Sci-fi_City\Scripts\PeopleTrafficLightGreen.cs" />
+    <Compile Include="Assets\game\scripts\kamera.cs" />
     <Compile Include="Assets\game\scripts\movement.cs" />
     <Compile Include="Assets\game\scripts\Start Screen.cs" />
     <Compile Include="Assets\game\scripts\NewMonoBehaviourScript.cs" />
+    <Compile Include="Assets\game\scripts\parryScr (1).cs" />
     <Compile Include="Assets\game\scripts\AudioEditor.cs" />
+    <Compile Include="Assets\game\scripts\Procuderal Generation.cs" />
     <Compile Include="Assets\Low_Poly_Sci-fi_City\Scripts\CarTrafficLightGreen.cs" />
     <Compile Include="Assets\Low_Poly_Sci-fi_City\Scripts\PeopleTrafficLightRed.cs" />
     <Compile Include="Assets\Low_Poly_Sci-fi_City\Scripts\CarTrafficLightRed.cs" />

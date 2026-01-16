@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.3f1 (ef04196de0d6) revision 15664153'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 32175 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-omerm" at "2026-01-15T23:38:45.0907882Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-01-15T23:38:45Z
+Date: 2026-01-16T08:56:59Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-omerm" at "2026-01-16T08:56:59.3622127Z"
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/omerm/Documents/GitHub/KratosDieTwice/KratosDieTwice
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-3615
+9731
 -licensingIpc
 LicenseClient-omerm
 -job-worker-count
@@ -65,12 +65,12 @@ C:/Users/omerm/Documents/GitHub/KratosDieTwice/KratosDieTwice
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [27124]  Target information:
+Player connection [43920]  Target information:
 
-Player connection [27124]  * "[IP] 10.143.90.204 [Port] 0 [Flags] 2 [Guid] 4004304986 [EditorId] 4004304986 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [43920]  * "[IP] 192.168.224.180 [Port] 0 [Flags] 2 [Guid] 4183053368 [EditorId] 4183053368 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27124] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27124] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [43920] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [43920] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,7 +82,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.3f1 (ef04196de0d6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -98,52 +98,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001681 seconds.
-- Loaded All Assemblies, in  0.314 seconds
+Registered in 0.001416 seconds.
+- Loaded All Assemblies, in  0.270 seconds
 Native extension for WindowsStandalone target not found
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              8f36f28e460c49f5b468f8d0c08a2a2c
-  Correlation Id:          e05c85cb4fd3125a192bf55aa260ec2b
-  External correlation Id: 7945584422274065041
+  Session Id:              2e3d4906620948dfbe685b73f81383d1
+  Correlation Id:          6bf57e68add6488ce591e889227ca312
+  External correlation Id: 5185490551281949273
   Machine Id:              pmNZprb+zyOzXlCt14cezMCcpOk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-omerm" (connect: 0.00s, validation: 0.00s, handshake: 1.27s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-omerm-notifications" at "2026-01-15T23:38:46.3668886Z"
-[Licensing::Module] Licensing Background thread has ended after 1.28s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-omerm" (connect: 0.00s, validation: 0.00s, handshake: 1.19s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-omerm-notifications" at "2026-01-16T08:57:00.5498648Z"
+[Licensing::Module] Licensing Background thread has ended after 1.19s
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.275 seconds
-Domain Reload Profiling: 587ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.288 seconds
+Domain Reload Profiling: 556ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
+		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (120ms)
-		LoadAssemblies (123ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (90ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (117ms)
-			TypeCache.Refresh (116ms)
-				TypeCache.ScanAssembly (104ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (96ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (276ms)
+	FinalizeReload (288ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (253ms)
+		SetupLoadedEditorAssemblies (255ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (30ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (105ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -158,158 +158,154 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.568 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.464 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.524 seconds
-Domain Reload Profiling: 1089ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.467 seconds
+Domain Reload Profiling: 929ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (376ms)
-		LoadAssemblies (297ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (228ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (149ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (113ms)
-			BuildScriptInfoCaches (19ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (83ms)
+			BuildScriptInfoCaches (20ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (524ms)
+	FinalizeReload (468ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (444ms)
+		SetupLoadedEditorAssemblies (398ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (320ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3863 unused Assets / (1.0 MB). Loaded Objects now: 4460.
-Memory consumption went from 95.1 MB to 94.1 MB.
-Total: 5.473100 ms (FindLiveObjects: 0.395900 ms CreateObjectMapping: 0.300600 ms MarkObjects: 3.906900 ms  DeleteObjects: 0.868900 ms)
+Unloading 3868 unused Assets / (1.1 MB). Loaded Objects now: 4466.
+Memory consumption went from 98.4 MB to 97.4 MB.
+Total: 5.530400 ms (FindLiveObjects: 0.387000 ms CreateObjectMapping: 0.268400 ms MarkObjects: 4.029300 ms  DeleteObjects: 0.844400 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.474 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.455 seconds
+Domain Reload Profiling: 928ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (72ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3866 unused Assets / (0.9 MB). Loaded Objects now: 4468.
+Memory consumption went from 98.4 MB to 97.5 MB.
+Total: 6.681400 ms (FindLiveObjects: 0.351700 ms CreateObjectMapping: 0.281200 ms MarkObjects: 5.325500 ms  DeleteObjects: 0.721900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 43129.037801 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_ColoredSand.mat
+  artifactKey: Guid(01219acc239963a40aa907c2a99c293d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_ColoredSand.mat using Guid(01219acc239963a40aa907c2a99c293d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14403d1b3ec1463ad8f25068e2742133') in 0.2886551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9449.743356 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LongSpaces/ambience_long_space_01.wav
-  artifactKey: Guid(cd10c6038b73b3d4ba37a68a068b38e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LongSpaces/ambience_long_space_01.wav using Guid(cd10c6038b73b3d4ba37a68a068b38e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '879f9a9b2c6b1dc8e705655c65b2dabe') in 0.2534358 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000029 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Honeycombing.mat
+  artifactKey: Guid(6143b7d0c26393b42993262048015157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Honeycombing.mat using Guid(6143b7d0c26393b42993262048015157) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb51ed2f779d423b8c17ef65d04e4140') in 0.1114541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LongSpaces/ambience_long_space_13.wav
-  artifactKey: Guid(a0ab04a840cab6848975c71005e94b76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LongSpaces/ambience_long_space_13.wav using Guid(a0ab04a840cab6848975c71005e94b76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '49207b20408234ccb5ecea1d6c7d6d66') in 0.1335317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000029 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Fibers.mat
+  artifactKey: Guid(6eef35d63db888f45bcdeb9ae09951b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Fibers.mat using Guid(6eef35d63db888f45bcdeb9ae09951b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3e44d272620eb0e3081a4383515b63b') in 0.0088704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/MediumSpaces/ambience_medium_space_11.wav
-  artifactKey: Guid(285b0848c0e6bcc40b58dc960df98838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/MediumSpaces/ambience_medium_space_11.wav using Guid(285b0848c0e6bcc40b58dc960df98838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de9c08797ba7a0a01744aea869ed39dc') in 0.3403072 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000056 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Polished.mat
+  artifactKey: Guid(4e9d0c37787f479428bdf2ab1220936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Polished.mat using Guid(4e9d0c37787f479428bdf2ab1220936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43a2f4dab2828fe657b12dd5aac902b4') in 0.0115035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/SmallSpaces/ambience_small_space_08.wav
-  artifactKey: Guid(5cf219b046e2afe4fb08faec30cafc6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/SmallSpaces/ambience_small_space_08.wav using Guid(5cf219b046e2afe4fb08faec30cafc6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5fbe6bfe916a9b726499c3fc5ba2b46') in 0.2528042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000014 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_PrecastD4.mat
+  artifactKey: Guid(6915e1e58f0a0b94bb7c3790e94fb317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_PrecastD4.mat using Guid(6915e1e58f0a0b94bb7c3790e94fb317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebbf3236d3f2f64abc917c62e0c2c19c') in 0.0091044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LongSpaces/ambience_long_space_06.wav
-  artifactKey: Guid(757501c12b80e8b4282cb6ba1eadf8f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LongSpaces/ambience_long_space_06.wav using Guid(757501c12b80e8b4282cb6ba1eadf8f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1da4aa2ba385ae5da89841439d0650f6') in 0.2202317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite
-  artifactKey: Guid(c26dbc10bccc18442960949f9e5c6353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite using Guid(c26dbc10bccc18442960949f9e5c6353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1630187e0eb2a808df8f7855b535c5d') in 0.0026939 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/SmallSpaces/ambience_small_space_14.wav
-  artifactKey: Guid(eab4592278d7cb74b8e5371b9cea6ffd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/SmallSpaces/ambience_small_space_14.wav using Guid(eab4592278d7cb74b8e5371b9cea6ffd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7855a63e8198b4ba9ad58cde6676013') in 0.2981875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LargeRooms/ambience_large_room_11.wav
-  artifactKey: Guid(25ba3e09874736d49a1ef59832e8745f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LargeRooms/ambience_large_room_11.wav using Guid(25ba3e09874736d49a1ef59832e8745f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6525028c3c3bc5126e956996f42e05e') in 0.2080953 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/SmallSpaces
-  artifactKey: Guid(a0dfae4e904ed2e4b9d152946da6ac8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/SmallSpaces using Guid(a0dfae4e904ed2e4b9d152946da6ac8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8201d5a8d3700040274033f3d3d25532') in 0.0025243 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LargeRooms/ambience_large_room_13.wav
-  artifactKey: Guid(d0d67c772fb13dd4ca9603a873cc0102) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LargeRooms/ambience_large_room_13.wav using Guid(d0d67c772fb13dd4ca9603a873cc0102) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '596daa45c9d9d07a1c598e24f0902656') in 0.1673622 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LargeRooms
-  artifactKey: Guid(4ded687fa8d5297458494158051f22b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LargeRooms using Guid(4ded687fa8d5297458494158051f22b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e98bccb6149278b5328f1ae15a835b2b') in 0.0032787 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/MediumSpaces/ambience_medium_space_13.wav
-  artifactKey: Guid(1e9f65abfddf8de40bf40000e0220a6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/MediumSpaces/ambience_medium_space_13.wav using Guid(1e9f65abfddf8de40bf40000e0220a6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef950a29ed17f74c634de8698539a965') in 0.2644362 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LargeRooms/ambience_large_room_04.wav
-  artifactKey: Guid(b32a716c09b3c1e4a9cf2232a6f8b863) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Shadowy Sci-Fi Cyberpunk Ambiences Lite/LargeRooms/ambience_large_room_04.wav using Guid(b32a716c09b3c1e4a9cf2232a6f8b863) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '083d104017e4128b991b1df76393c462') in 0.2270454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000018 seconds.
+  path: Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Waves.mat
+  artifactKey: Guid(db66224d5e321d44bb3ab6b03fd6832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Waves.mat using Guid(db66224d5e321d44bb3ab6b03fd6832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f203065928df1dfa0dd03eb54062cf0') in 0.010539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
