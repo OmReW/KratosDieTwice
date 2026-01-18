@@ -432,6 +432,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/game/scripts/AudioEditor.cs"
+"Assets/game/scripts/CreateRoad.cs"
 "Assets/game/scripts/kamera.cs"
 "Assets/game/scripts/MovementAlternate.cs"
 "Assets/game/scripts/parryScr (1).cs"

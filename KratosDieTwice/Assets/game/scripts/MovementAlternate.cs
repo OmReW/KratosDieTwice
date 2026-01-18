@@ -1,9 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
 
-public class LaneMovement : MonoBehaviour
-{
+public class LaneMovement : MonoBehaviour {
+    //hız ayarları
     [Header("Ayarlar")]
     public float laneDistance = 3.0f;
     public float laneSwitchSpeed = 10.0f;
@@ -11,28 +12,22 @@ public class LaneMovement : MonoBehaviour
     private int currentLane = 1;
     private float targetX;
     private int maxLaneIndex = 3;
-
-    void Start()
-    {
+   
+  
+    void Start() {
         CalculateTargetX();
     }
 
-    void Update()
-    {
-        if(forwardSpeed == 0) {
-            SceneManager.LoadScene(2);
-        }
+    void Update() {
+      
 
 
         var keyboard = Keyboard.current;
-        if (keyboard == null) return; 
+        if (keyboard == null) return;
 
-        if (keyboard.leftArrowKey.wasPressedThisFrame || keyboard.aKey.wasPressedThisFrame)
-        {
+        if (keyboard.leftArrowKey.wasPressedThisFrame || keyboard.aKey.wasPressedThisFrame) {
             ChangeLane(-1);
-        }
-        else if (keyboard.rightArrowKey.wasPressedThisFrame || keyboard.dKey.wasPressedThisFrame)
-        {
+        } else if (keyboard.rightArrowKey.wasPressedThisFrame || keyboard.dKey.wasPressedThisFrame) {
             ChangeLane(1);
         }
 
@@ -41,16 +36,14 @@ public class LaneMovement : MonoBehaviour
         transform.Translate(Vector3.forward * forwardSpeed * Time.deltaTime);
     }
 
-    void ChangeLane(int direction)
-    {
+    void ChangeLane(int direction) {
         currentLane += direction;
         currentLane = Mathf.Clamp(currentLane, 0, maxLaneIndex);
         CalculateTargetX();
     }
 
-    void CalculateTargetX()
-    {
+    void CalculateTargetX() {
         float centerOffset = (maxLaneIndex / 2.0f);
         targetX = (currentLane - centerOffset) * laneDistance;
-    }
-}
+    }}
+   

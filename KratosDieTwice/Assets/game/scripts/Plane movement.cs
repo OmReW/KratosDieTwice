@@ -1,17 +1,19 @@
+using DG.Tweening;
+using System.Collections;
 using UnityEngine;
 
 public class Planemovement : MonoBehaviour
 {
-    float randomMove = Random.Range(0.1, 2);
-
-    void Start()
-    {
-        
+    float randomSpeed = Random.Range(1, 3);
+    void Start() {
+        StartCoroutine(ObstacleSpeed());
     }
 
- 
-    void Update()
-    {
-        
+    IEnumerator ObstacleSpeed() {
+        transform.DOLocalMoveX(randomSpeed, 1);
+        yield return new WaitForSeconds(1);
+        transform.DOLocalMoveX(randomSpeed, 1);
+        yield return new WaitForSeconds(1);
+        StartCoroutine(ObstacleSpeed());
     }
 }
