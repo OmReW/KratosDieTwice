@@ -67,7 +67,9 @@
     <Compile Include="Assets\game\scripts\useless\movement iptal.cs" />
     <Compile Include="Assets\Low_Poly_Sci-fi_City\Scripts\PeopleTrafficLightGreen.cs" />
     <Compile Include="Assets\game\scripts\kamera.cs" />
+    <Compile Include="Assets\game\scripts\CreateCity.cs" />
     <Compile Include="Assets\game\scripts\CreateRoad.cs" />
+    <Compile Include="Assets\game\scripts\try city.cs" />
     <Compile Include="Assets\game\scripts\parryScr (1).cs" />
     <Compile Include="Assets\game\scripts\AudioEditor.cs" />
     <Compile Include="Assets\game\scripts\UI\RestartButton.cs" />
@@ -76,6 +78,7 @@
     <Compile Include="Assets\game\scripts\Plane movement.cs" />
     <Compile Include="Assets\Low_Poly_Sci-fi_City\Scripts\PeopleTrafficLightRed.cs" />
     <Compile Include="Assets\Low_Poly_Sci-fi_City\Scripts\CarTrafficLightRed.cs" />
+    <Compile Include="Assets\game\scripts\procedure try.cs" />
     <Compile Include="Assets\game\scripts\UI\ScoreTExt.cs" />
   </ItemGroup>
   <ItemGroup>
