@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\procedure try.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|c:\\users\\yusuf\\onedrive\\belgeler\\github\\kratosdietwice\\kratosdietwice\\assets\\game\\scripts\\createcity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\assets\\game\\scripts\\createcity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\createcity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Assets\\game\\scripts\\procedure try.cs",
               "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\procedure try.cs",
               "RelativeToolTip": "Assets\\game\\scripts\\procedure try.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAApwB8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-18T18:53:42.589Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "Assets\\game\\scripts\\CreateCity.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T18:31:54.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T18:31:54.245Z"
             },
             {
               "$type": "Document",
