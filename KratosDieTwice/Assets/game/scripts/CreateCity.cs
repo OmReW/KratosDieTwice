@@ -28,12 +28,11 @@ public class CreateCity : MonoBehaviour {
     }
 
     void SpawnRoadsideObjects() {
-        // Sol taraf
+       
         GameObject leftPrefab = roadsidePrefabs[Random.Range(0, roadsidePrefabs.Length)];
         Vector3 leftPos = new Vector3(xPositionLeft, 0, nextSpawnZ);
         Instantiate(leftPrefab, leftPos, Quaternion.identity, transform);
 
-        // Sað taraf
         GameObject rightPrefab = roadsidePrefabs[Random.Range(0, roadsidePrefabs.Length)];
         Vector3 rightPos = new Vector3(xPositionRight, 0, nextSpawnZ);
         Instantiate(rightPrefab, rightPos, Quaternion.identity, transform);

@@ -4,7 +4,6 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class LaneMovement : MonoBehaviour {
-    //hız ayarları
     [Header("Ayarlar")]
     public float laneDistance = 3.0f;
     public float laneSwitchSpeed = 10.0f;
