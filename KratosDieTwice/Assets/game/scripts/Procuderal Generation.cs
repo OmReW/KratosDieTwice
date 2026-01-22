@@ -4,48 +4,37 @@ public class ProcuderalGeneration : MonoBehaviour
 {
     public GameObject[] Cityref;
     public float lastspawnposition = 20;
-    public int CityCount = 10;
     public float distance;
     public GameObject PlayerC;
     private GameObject[] CityList;
     public GameObject obstacleref;
     private GameObject[] obstaclelist;
 
+   
 
-    void Start()
-    {
+   
 
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-       if (lastspawnposition - PlayerC.transform.position.z < 30)
-        {
-            spawnobstacle();
-            Debug.Log("çalışıyor");
-        }
-        if (lastspawnposition - PlayerC.transform.position.z < 30) {
-            spawnCity();
-            Debug.Log("çalışıyor");
+        void Update() {
+            if (lastspawnposition - PlayerC.transform.position.z < 30) {
+                spawnobstacle();
+                spawnCity();
+                lastspawnposition += distance; 
+                Debug.Log("çalışıyor");
+            }
         }
 
+        void spawnobstacle() {
+            int rnd = Random.Range(-1, 2); 
+            GameObject spawnedobstacle = Instantiate(obstacleref, new Vector3(rnd * 4, 1, lastspawnposition), Quaternion.identity);
+         
+        }
 
-    }
-
-    void spawnobstacle ()
-    {
-       int rnd = Random.Range(-1, 1);
-       GameObject spawnedobstacle =  Instantiate(obstacleref, new Vector3(rnd*4,1,lastspawnposition), Quaternion.identity);
-        lastspawnposition += distance;
-        
-    }
-    void spawnCity() {
-        int rndCity = Random.Range(0, CityCount);
-        int rnd = Random.Range(-1, 1);
-        GameObject spawnedobstacle = Instantiate(Cityref[rndCity], new Vector3(rnd * 20, 1, lastspawnposition), Quaternion.identity);
-        lastspawnposition += distance;
-
-    }
+        void spawnCity() {
+            int rndCity = Random.Range(0, Cityref.Length);
+            int rnd = Random.Range(0, 2) == 0 ? -1 : 1; // Sadece -1 veya 1 (sağ/sol)
+            GameObject spawnedobstacle = Instantiate(Cityref[rndCity], new Vector3(rnd * 50, 1, lastspawnposition), Quaternion.identity);
+          
+        }
+    
 }

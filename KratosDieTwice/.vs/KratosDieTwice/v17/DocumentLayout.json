@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\assets\\game\\scripts\\createroad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\createroad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\assets\\game\\scripts\\procuderal generation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\procuderal generation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +11,12 @@
       "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\plane movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\assets\\game\\scripts\\plane movement 1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\plane movement 1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|c:\\users\\yusuf\\onedrive\\belgeler\\github\\kratosdietwice\\kratosdietwice\\assets\\game\\scripts\\ui\\scoretext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\ui\\scoretext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\assets\\game\\scripts\\movementalternate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\movementalternate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\assets\\game\\scripts\\audioeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\audioeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\assets\\game\\scripts\\kamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\kamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\assets\\game\\scripts\\parryscr (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\parryscr (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|c:\\users\\yusuf\\onedrive\\belgeler\\github\\kratosdietwice\\kratosdietwice\\assets\\game\\scripts\\useless\\movement iptal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCD63A5B-62AE-BE2B-FAAA-A06F9109EDAF}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\useless\\movement iptal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,108 +26,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateRoad.cs",
-              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\CreateRoad.cs",
-              "RelativeDocumentMoniker": "Assets\\game\\scripts\\CreateRoad.cs",
-              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\CreateRoad.cs",
-              "RelativeToolTip": "Assets\\game\\scripts\\CreateRoad.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:51:49.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MovementAlternate.cs",
-              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\MovementAlternate.cs",
-              "RelativeDocumentMoniker": "Assets\\game\\scripts\\MovementAlternate.cs",
-              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\MovementAlternate.cs",
-              "RelativeToolTip": "Assets\\game\\scripts\\MovementAlternate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T20:07:30.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Procuderal Generation.cs",
-              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\Procuderal Generation.cs",
-              "RelativeDocumentMoniker": "Assets\\game\\scripts\\Procuderal Generation.cs",
-              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\Procuderal Generation.cs",
-              "RelativeToolTip": "Assets\\game\\scripts\\Procuderal Generation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:46:10.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "plane movement 1.cs",
-              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\plane movement 1.cs",
-              "RelativeDocumentMoniker": "Assets\\game\\scripts\\plane movement 1.cs",
-              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\plane movement 1.cs",
-              "RelativeToolTip": "Assets\\game\\scripts\\plane movement 1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:46:08.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Plane movement.cs",
               "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\Plane movement.cs",
               "RelativeDocumentMoniker": "Assets\\game\\scripts\\Plane movement.cs",
               "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\Plane movement.cs",
               "RelativeToolTip": "Assets\\game\\scripts\\Plane movement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T20:46:08.068Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "parryScr (1).cs",
-              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\parryScr (1).cs",
-              "RelativeDocumentMoniker": "Assets\\game\\scripts\\parryScr (1).cs",
-              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\parryScr (1).cs",
-              "RelativeToolTip": "Assets\\game\\scripts\\parryScr (1).cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Procuderal Generation.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\Procuderal Generation.cs",
+              "RelativeDocumentMoniker": "Assets\\game\\scripts\\Procuderal Generation.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\Procuderal Generation.cs",
+              "RelativeToolTip": "Assets\\game\\scripts\\Procuderal Generation.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:46:07.292Z"
+              "WhenOpened": "2026-01-17T20:46:10.094Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "kamera.cs",
-              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\kamera.cs",
-              "RelativeDocumentMoniker": "Assets\\game\\scripts\\kamera.cs",
-              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\kamera.cs",
-              "RelativeToolTip": "Assets\\game\\scripts\\kamera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ScoreTExt.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\UI\\ScoreTExt.cs",
+              "RelativeDocumentMoniker": "Assets\\game\\scripts\\UI\\ScoreTExt.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\UI\\ScoreTExt.cs",
+              "RelativeToolTip": "Assets\\game\\scripts\\UI\\ScoreTExt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:46:05.034Z"
+              "WhenOpened": "2026-01-22T14:16:29.798Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AudioEditor.cs",
-              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\AudioEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\game\\scripts\\AudioEditor.cs",
-              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\AudioEditor.cs",
-              "RelativeToolTip": "Assets\\game\\scripts\\AudioEditor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "movement iptal.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\useless\\movement iptal.cs",
+              "RelativeDocumentMoniker": "Assets\\game\\scripts\\useless\\movement iptal.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Belgeler\\GitHub\\KratosDieTwice\\KratosDieTwice\\Assets\\game\\scripts\\useless\\movement iptal.cs",
+              "RelativeToolTip": "Assets\\game\\scripts\\useless\\movement iptal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:46:03.691Z"
+              "WhenOpened": "2026-01-21T11:59:08.536Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,21 +1,2 @@
 fileFormatVersion: 2
 guid: ff7d70217fcf7554e83588d23ee7f5bc
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences:
-  - hitEffect: {instanceID: 0}
-  - soundEffect: {instanceID: 0}
-  - boosterSoundEffect: {instanceID: 0}
-  - boosterHitEffect: {instanceID: 0}
-  - obstacleSoundEffect: {instanceID: 0}
-  - obstacleHitEffect: {instanceID: 0}
-  - UIScreen: {instanceID: 0}
-  - soundEffectA: {instanceID: 0}
-  - soundEffectB: {instanceID: 0}
-  - soundEffectC: {instanceID: 0}
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 

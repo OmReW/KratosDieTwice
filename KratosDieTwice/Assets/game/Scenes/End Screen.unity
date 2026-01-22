@@ -944,19 +944,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::movement
   forwardSpeed: 5
-  horizontalSpeed: 45
   booster: 2
   obstacle: -2
-  gameScore: 0
   hitEffect: {fileID: 0}
   soundEffect: {fileID: 0}
   boosterHitEffect: {fileID: 0}
   obstacleHitEffect: {fileID: 0}
   UIScreen: {fileID: 0}
   leftRightDistance: 0
-  soundEffectA: {fileID: 0}
-  soundEffectB: {fileID: 0}
-  soundEffectC: {fileID: 0}
+  soundEffectBorder: {fileID: 0}
+  soundEffectBooster: {fileID: 0}
+  soundEffectObstacle: {fileID: 0}
 --- !u!1 &1723107025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1133,7 +1131,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreTExt
   scoreText: {fileID: 699425344}
-  playerMovement: {fileID: 1675278656}
 --- !u!4 &2064997459
 Transform:
   m_ObjectHideFlags: 0
